@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Home — FastAPI Templates{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h1>Welcome to Lesson 19 🚀</h1>
+    <p>This page is rendered by <strong>Jinja2</strong> inside FastAPI.</p>
+    <p>The stylesheet is served from <code>/static/style.css</code> via <code>StaticFiles</code>.</p>
+</div>
+
+<div class="card">
+    <h2>What you're seeing</h2>
+    <ul>
+        <li>Server: <strong>{{ server }}</strong></li>
+        <li>Python version: <strong>{{ python_version }}</strong></li>
+        <li>Items in DB: <span class="badge">{{ item_count }}</span></li>
+    </ul>
+</div>
+
+<a href="/items" class="btn">View All Items →</a>
+{% endblock %}

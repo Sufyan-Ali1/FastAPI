@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}{{ item.name }}{% endblock %}
+
+{% block content %}
+<a href="/items">← Back to Items</a>
+
+<div class="card" style="margin-top:1rem">
+    <h1>{{ item.name }}</h1>
+    <p><span class="badge">{{ item.category or "Uncategorised" }}</span></p>
+    <br>
+    <table>
+        <tr><th>ID</th>     <td>{{ item.id }}</td></tr>
+        <tr><th>Name</th>   <td>{{ item.name }}</td></tr>
+        <tr><th>Price</th>  <td>${{ "%.2f" | format(item.price) }}</td></tr>
+        <tr><th>Category</th><td>{{ item.category or "—" }}</td></tr>
+    </table>
+</div>
+{% endblock %}
