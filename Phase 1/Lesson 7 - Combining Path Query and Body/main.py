@@ -15,7 +15,7 @@ Test:
     http://127.0.0.1:8000/docs
 """
 
-from fastapi import FastAPI, Body
+from fastapi import FastAPI, Body, Path, Query
 from pydantic import BaseModel, Field
 
 app = FastAPI(title="Lesson 7 - Combining Path + Query + Body")
@@ -107,3 +107,30 @@ def create_user_embedded(user: User = Body(..., embed=True)):
     { "name": "...", "email": "..." }
     """
     return {"received": user}
+
+class Product(BaseModel):
+    name: str = Field(..., min_length=1)
+    price: float = Field(..., gt=0)
+
+@app.put("/products/{product_id}")
+def update_product(
+    product_id: int = Path(..., ge=1), # this is also default parameter if you write = in a function parameter, Python treats it as a default argument.
+    product: Product = Body(...),
+    updated_by: str = Body(..., min_length=2),
+    notify: bool = False
+    
+    ):
+    """PUT /products/5?notify=true
+    Body:
+    {
+        "name": "New Product Name",
+        "price": 19.99,
+        "updated_by": "Alice"
+    }
+    """ 
+    return {
+        "product_id": product_id,
+        "notify": notify,
+        "updated_by": updated_by,
+        "updated_product": product
+    }

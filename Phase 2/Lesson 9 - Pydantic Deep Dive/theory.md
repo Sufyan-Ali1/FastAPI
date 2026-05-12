@@ -46,8 +46,10 @@ class User(BaseModel):
 1. Decorator: `@field_validator("field_name")`
 2. Always `@classmethod` (Pydantic requirement)
 3. Always take `cls` and `v` (value)
-4. **Raise `ValueError`** if validation fails (Pydantic catches it)
-5. **Return the (possibly modified) value** if valid
+4. cls = the model class (User)
+5. **cls** for class-level data or behavior
+6. **Raise `ValueError`** if validation fails (Pydantic catches it)
+7. **Return the (possibly modified) value** if valid
 
 ### Multiple fields at once
 
@@ -80,6 +82,15 @@ class User(BaseModel):
 ```
 
 > 💡 `info.data` contains all fields validated **so far**. Be careful about field order if you need this.
+
+**By default**, @field_validator runs after basic validation.
+
+But you can control timing:
+```python
+@field_validator("username", mode="before")
+```
+Runs before type/field validation
+Useful for preprocessing (e.g., trimming spaces)
 
 ---
 
@@ -137,6 +148,17 @@ class User(BaseModel):
 | `use_enum_values=True` | Serialize `Enum` to its `.value`, not name | JSON needs the raw value |
 | `populate_by_name=True` | Accept both field name AND alias | API needs both `user_id` and `userId` |
 
+
+**Frozen = true** After the model object is created means validation will work
+
+**Validation still happens in this order:**
+
+1. Input data received
+2. field_validator runs
+3. model_validator runs
+4. Object is created
+5. THEN freezing applies
+
 ---
 
 ## 5. Field Aliases — Accept Multiple Names
@@ -184,6 +206,10 @@ class User(BaseModel):
 
 When you call `.model_dump()` or return the model from an endpoint, `password` and `created_at` are transformed.
 
+It runs during **serialization**, i.e. when you call:
+- model.model_dump()
+- model.model_dump_json()
+
 ---
 
 ## 7. Pydantic v1 vs v2 — Key Differences
@@ -199,6 +225,7 @@ If you're migrating v1 code or reading old docs, watch for:
 | **Serialization (JSON)** | `.json()` | `.model_dump_json()` |
 | **ORM mode** | `class Config: orm_mode = True` | `ConfigDict(from_attributes=True)` |
 | **Validator mode** | N/A | `@field_validator(mode="...")` |
+| **Speed** | Slow(Python Heavy) | Fast(Rust Core Engine) |
 
 **v1 to v2 migration tip:** Search and replace is **not** safe — read Pydantic docs carefully. The validator logic is the same, but decorator names and config syntax changed.
 

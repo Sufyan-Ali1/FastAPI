@@ -119,3 +119,12 @@ def conditional(lucky: bool = False):
 @app.get("/items")
 def list_items() -> list[ItemOut]:
     return list(db.values())
+
+@app.patch("/items/{item_id}")
+def update_item(item_id:int,response:Response, item:ItemCreate)->ItemOut:
+    if item_id not in db:
+        response.headers["X-Error"] = "Item not found"
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"Item {item_id} not found")
+    db[item_id].update(item.model_dump())
+    response.headers["X-Patched-By"] = "fastapi-learner"
+    return db[item_id]
