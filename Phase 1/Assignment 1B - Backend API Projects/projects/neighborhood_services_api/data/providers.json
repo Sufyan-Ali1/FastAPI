@@ -1,0 +1,115 @@
+[
+    {
+        "id": "d8a4b25a-2ed4-4a86-9c9c-4a1c82f42c01",
+        "name": "Ahsan Plumbing Works",
+        "category": "plumber",
+        "city": "Lahore",
+        "area": "Johar Town",
+        "email": "contact@ahsanplumbing.example",
+        "phone": "+92-300-1112233",
+        "hourly_rate": 1800.0,
+        "years_experience": 6,
+        "available": true,
+        "skills": [
+            "pipe repair",
+            "leak fixing",
+            "bathroom fittings"
+        ],
+        "average_rating": 4.5,
+        "review_count": 2
+    },
+    {
+        "id": "9d4edb0e-3e8e-4c30-b6f9-b5229a1f4c42",
+        "name": "Bright Spark Electric",
+        "category": "electrician",
+        "city": "Karachi",
+        "area": "Gulshan",
+        "email": "support@brightsparkelectric.example",
+        "phone": "+92-300-2223344",
+        "hourly_rate": 2200.0,
+        "years_experience": 8,
+        "available": false,
+        "skills": [
+            "wiring",
+            "breaker repair",
+            "fan installation"
+        ],
+        "average_rating": 5.0,
+        "review_count": 1
+    },
+    {
+        "id": "fb23db42-e018-4d82-8de6-034bf5bb4ec2",
+        "name": "Clean Sweep Home Care",
+        "category": "cleaner",
+        "city": "Islamabad",
+        "area": "F-10",
+        "email": "hello@cleansweephomecare.example",
+        "phone": "+92-300-3334455",
+        "hourly_rate": 1400.0,
+        "years_experience": 4,
+        "available": true,
+        "skills": [
+            "deep cleaning",
+            "kitchen cleaning",
+            "sofa cleaning"
+        ],
+        "average_rating": 4.0,
+        "review_count": 1
+    },
+    {
+        "id": "79914f7a-26ab-42e9-88b8-b7b3de11fa76",
+        "name": "Future Maths Tutor",
+        "category": "tutor",
+        "city": "Lahore",
+        "area": "DHA",
+        "email": "classes@futuremathstutor.example",
+        "phone": "+92-300-4445566",
+        "hourly_rate": 2500.0,
+        "years_experience": 5,
+        "available": true,
+        "skills": [
+            "algebra",
+            "calculus",
+            "exam prep"
+        ],
+        "average_rating": 4.0,
+        "review_count": 1
+    },
+    {
+        "id": "1f29c8bc-7fc1-4ec8-a4e2-76ce6cb8bb9e",
+        "name": "Prime Auto Fix",
+        "category": "mechanic",
+        "city": "Rawalpindi",
+        "area": "Saddar",
+        "email": "service@primeautofix.example",
+        "phone": "+92-300-5556677",
+        "hourly_rate": 3000.0,
+        "years_experience": 10,
+        "available": true,
+        "skills": [
+            "engine tuning",
+            "oil change",
+            "diagnostics"
+        ],
+        "average_rating": 0.0,
+        "review_count": 0
+    },
+    {
+        "id": "3234774a-43df-41b7-b900-d46110c63e3c",
+        "name": "Nasir",
+        "email": "nasirsaqeeq12@gmail.com",
+        "category": "tutor",
+        "city": "muzaffarabad",
+        "area": "Gojra Bypass",
+        "phone": "+923213233435 ",
+        "hourly_rate": 30.0,
+        "years_experience": 5,
+        "available": true,
+        "skills": [
+            "teaching",
+            "dot net"
+        ],
+        "average_rating": 0,
+        "review_count": 0
+    }
+]

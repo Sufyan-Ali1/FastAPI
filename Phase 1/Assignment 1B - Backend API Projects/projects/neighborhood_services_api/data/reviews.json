@@ -1,0 +1,37 @@
+[
+  {
+    "id": "51ed1313-51e0-42dd-8a79-72830842d4a1",
+    "provider_id": "d8a4b25a-2ed4-4a86-9c9c-4a1c82f42c01",
+    "reviewer_name": "Usman",
+    "rating": 5,
+    "comment": "Solved the leakage quickly and explained the issue clearly."
+  },
+  {
+    "id": "0b210b5a-feb3-4092-a917-e76455bb42a6",
+    "provider_id": "d8a4b25a-2ed4-4a86-9c9c-4a1c82f42c01",
+    "reviewer_name": "Sana",
+    "rating": 4,
+    "comment": "Good work overall and arrived on time."
+  },
+  {
+    "id": "30780952-c239-4f64-8efd-d48d837bcb24",
+    "provider_id": "9d4edb0e-3e8e-4c30-b6f9-b5229a1f4c42",
+    "reviewer_name": "Maham",
+    "rating": 5,
+    "comment": "Very professional electrical repair and clean finishing."
+  },
+  {
+    "id": "2180077e-d566-43fe-bd76-ec0901555b68",
+    "provider_id": "fb23db42-e018-4d82-8de6-034bf5bb4ec2",
+    "reviewer_name": "Bilal",
+    "rating": 4,
+    "comment": "House was cleaned well and the team was polite."
+  },
+  {
+    "id": "652acbca-e29c-4e11-9422-451e6a03b82b",
+    "provider_id": "79914f7a-26ab-42e9-88b8-b7b3de11fa76",
+    "reviewer_name": "Hina",
+    "rating": 4,
+    "comment": "Tutor explained concepts well and gave useful practice."
+  }
+]
