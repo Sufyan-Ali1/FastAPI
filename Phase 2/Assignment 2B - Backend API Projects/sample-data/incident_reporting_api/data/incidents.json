@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "title": "Payment webhook failures",
+    "description": "Several payment webhooks failed to process during peak traffic.",
+    "severity": "critical",
+    "service_area": "payments",
+    "reported_by": "Ops Console",
+    "status": "in_progress",
+    "assigned_responder": "Farhan",
+    "created_at": "2026-07-06T08:10:00",
+    "updated_at": "2026-07-06T10:30:00",
+    "internal_notes": "Potential retry queue issue."
+  },
+  {
+    "id": 2,
+    "title": "Admin dashboard export delay",
+    "description": "CSV export from admin dashboard takes longer than expected.",
+    "severity": "medium",
+    "service_area": "admin",
+    "reported_by": "Support Team",
+    "status": "triaged",
+    "assigned_responder": "Sadia",
+    "created_at": "2026-07-04T12:15:00",
+    "updated_at": "2026-07-04T13:00:00",
+    "internal_notes": "Likely large report generation."
+  },
+  {
+    "id": 3,
+    "title": "Broken avatar upload preview",
+    "description": "Uploaded profile images appear broken in user settings.",
+    "severity": "low",
+    "service_area": "user_profile",
+    "reported_by": "Customer Success",
+    "status": "resolved",
+    "assigned_responder": "Hamid",
+    "created_at": "2026-06-28T09:40:00",
+    "updated_at": "2026-06-29T15:20:00",
+    "internal_notes": "Incorrect file path in profile metadata."
+  },
+  {
+    "id": 4,
+    "title": "Public status page typo",
+    "description": "A minor typo appears in the public incident message.",
+    "severity": "low",
+    "service_area": "communications",
+    "reported_by": "Marketing",
+    "status": "closed",
+    "assigned_responder": "Mina",
+    "created_at": "2026-06-20T11:00:00",
+    "updated_at": "2026-06-20T12:10:00",
+    "internal_notes": "No customer impact."
+  }
+]

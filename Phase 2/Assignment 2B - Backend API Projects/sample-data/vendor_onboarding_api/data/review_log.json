@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "document_id": 1,
+    "vendor_id": 1,
+    "reviewer_name": "Nadia",
+    "decision": "approved",
+    "review_note": "License matches company registration details.",
+    "reviewed_at": "2026-07-03T09:30:00"
+  },
+  {
+    "id": 2,
+    "document_id": 2,
+    "vendor_id": 1,
+    "reviewer_name": "Nadia",
+    "decision": "approved",
+    "review_note": "Tax number and business name are valid.",
+    "reviewed_at": "2026-07-03T09:42:00"
+  },
+  {
+    "id": 3,
+    "document_id": 4,
+    "vendor_id": 2,
+    "reviewer_name": "Omar",
+    "decision": "approved",
+    "review_note": "License is valid and current.",
+    "reviewed_at": "2026-06-24T11:10:00"
+  },
+  {
+    "id": 4,
+    "document_id": 5,
+    "vendor_id": 2,
+    "reviewer_name": "Omar",
+    "decision": "approved",
+    "review_note": "Tax document accepted.",
+    "reviewed_at": "2026-06-24T11:25:00"
+  },
+  {
+    "id": 5,
+    "document_id": 6,
+    "vendor_id": 4,
+    "reviewer_name": "Nadia",
+    "decision": "rejected",
+    "review_note": "Insurance certificate expired before submission.",
+    "reviewed_at": "2026-06-21T12:30:00"
+  }
+]

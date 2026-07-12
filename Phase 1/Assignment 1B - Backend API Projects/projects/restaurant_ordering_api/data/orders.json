@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "table_id": 1,
+    "customer_name": "Adeel",
+    "status": "draft",
+    "items": [
+      {
+        "menu_item_id": 3,
+        "item_name": "Beef Burger",
+        "quantity": 2,
+        "unit_price": 1350.0,
+        "line_total": 2700.0,
+        "special_instructions": "No onions"
+      },
+      {
+        "menu_item_id": 7,
+        "item_name": "Mint Margarita",
+        "quantity": 2,
+        "unit_price": 420.0,
+        "line_total": 840.0,
+        "special_instructions": ""
+      }
+    ],
+    "subtotal": 3540.0,
+    "service_charge": 354.0,
+    "total": 3894.0
+  },
+  {
+    "id": 2,
+    "table_id": 2,
+    "customer_name": "Family Booking",
+    "status": "submitted",
+    "items": [
+      {
+        "menu_item_id": 5,
+        "item_name": "Margherita Pizza",
+        "quantity": 1,
+        "unit_price": 1600.0,
+        "line_total": 1600.0,
+        "special_instructions": "Extra basil"
+      },
+      {
+        "menu_item_id": 2,
+        "item_name": "Loaded Fries",
+        "quantity": 1,
+        "unit_price": 650.0,
+        "line_total": 650.0,
+        "special_instructions": ""
+      }
+    ],
+    "subtotal": 2250.0,
+    "service_charge": 225.0,
+    "total": 2475.0
+  },
+  {
+    "id": 3,
+    "table_id": 4,
+    "customer_name": "Office Group",
+    "status": "preparing",
+    "items": [
+      {
+        "menu_item_id": 4,
+        "item_name": "Chicken Alfredo Pasta",
+        "quantity": 2,
+        "unit_price": 1450.0,
+        "line_total": 2900.0,
+        "special_instructions": ""
+      },
+      {
+        "menu_item_id": 10,
+        "item_name": "Garlic Bread",
+        "quantity": 2,
+        "unit_price": 380.0,
+        "line_total": 760.0,
+        "special_instructions": ""
+      }
+    ],
+    "subtotal": 3660.0,
+    "service_charge": 366.0,
+    "total": 4026.0
+  },
+  {
+    "id": 4,
+    "table_id": 3,
+    "customer_name": "Mariam",
+    "status": "served",
+    "items": [
+      {
+        "menu_item_id": 1,
+        "item_name": "Chicken Tikka",
+        "quantity": 1,
+        "unit_price": 950.0,
+        "line_total": 950.0,
+        "special_instructions": ""
+      },
+      {
+        "menu_item_id": 6,
+        "item_name": "Chocolate Lava Cake",
+        "quantity": 1,
+        "unit_price": 780.0,
+        "line_total": 780.0,
+        "special_instructions": ""
+      }
+    ],
+    "subtotal": 1730.0,
+    "service_charge": 173.0,
+    "total": 1903.0
+  },
+  {
+    "id": 5,
+    "table_id": 5,
+    "customer_name": "Walk-in Customer",
+    "status": "cancelled",
+    "items": [
+      {
+        "menu_item_id": 9,
+        "item_name": "Caesar Salad",
+        "quantity": 1,
+        "unit_price": 720.0,
+        "line_total": 720.0,
+        "special_instructions": "Dressing on side"
+      },
+      {
+        "menu_item_id": 7,
+        "item_name": "Mint Margarita",
+        "quantity": 1,
+        "unit_price": 420.0,
+        "line_total": 420.0,
+        "special_instructions": ""
+      }
+    ],
+    "subtotal": 1140.0,
+    "service_charge": 114.0,
+    "total": 1254.0
+  }
+]

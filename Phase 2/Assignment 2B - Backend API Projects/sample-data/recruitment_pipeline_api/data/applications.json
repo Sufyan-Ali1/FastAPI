@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "job_id": 1,
+    "candidate_id": 1,
+    "source": "referral",
+    "stage": "interview",
+    "note": "Strong API fundamentals.",
+    "created_at": "2026-06-19T10:00:00",
+    "updated_at": "2026-06-26T15:00:00",
+    "internal_notes": "Move quickly if technical score is strong."
+  },
+  {
+    "id": 2,
+    "job_id": 2,
+    "candidate_id": 2,
+    "source": "linkedin",
+    "stage": "screening",
+    "note": "Relevant QA background.",
+    "created_at": "2026-06-23T12:00:00",
+    "updated_at": "2026-06-24T09:00:00",
+    "internal_notes": "Ask about API test coverage examples."
+  },
+  {
+    "id": 3,
+    "job_id": 1,
+    "candidate_id": 3,
+    "source": "career_page",
+    "stage": "applied",
+    "note": "Junior profile for backend role.",
+    "created_at": "2026-07-01T10:00:00",
+    "updated_at": "2026-07-01T10:00:00",
+    "internal_notes": "Resume not uploaded yet."
+  },
+  {
+    "id": 4,
+    "job_id": 3,
+    "candidate_id": 4,
+    "source": "agency",
+    "stage": "hired",
+    "note": "Selected for operations role.",
+    "created_at": "2026-05-15T11:00:00",
+    "updated_at": "2026-06-05T17:30:00",
+    "internal_notes": "Closed successfully."
+  }
+]

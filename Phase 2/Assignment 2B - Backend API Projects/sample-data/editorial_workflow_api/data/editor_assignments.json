@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "submission_id": 1,
+    "editor_name": "Hassan",
+    "assigned_by": "Mina",
+    "assigned_at": "2026-07-01T12:00:00",
+    "note": "Assigning to backend-focused editor."
+  },
+  {
+    "id": 2,
+    "submission_id": 2,
+    "editor_name": "Mina",
+    "assigned_by": "Hassan",
+    "assigned_at": "2026-06-18T13:00:00",
+    "note": "Mina owns API writing series."
+  },
+  {
+    "id": 3,
+    "submission_id": 3,
+    "editor_name": "Hassan",
+    "assigned_by": "Mina",
+    "assigned_at": "2026-07-03T14:00:00",
+    "note": "Needs operational editing review."
+  }
+]

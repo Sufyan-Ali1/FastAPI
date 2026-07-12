@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Atlas Logistics Pvt Ltd",
+    "business_type": "logistics",
+    "contact_email": "compliance@atlaslogistics.example",
+    "contact_phone": "+92-300-2101001",
+    "country": "Pakistan",
+    "risk_level": "medium",
+    "required_documents": ["business_license", "tax_certificate", "insurance_certificate"],
+    "status": "under_review",
+    "created_at": "2026-07-01T09:00:00",
+    "updated_at": "2026-07-04T14:20:00",
+    "internal_notes": "Insurance document requires closer review."
+  },
+  {
+    "id": 2,
+    "name": "Northstar Office Supplies",
+    "business_type": "supplier",
+    "contact_email": "ops@northstaroffice.example",
+    "contact_phone": "+92-300-2101002",
+    "country": "Pakistan",
+    "risk_level": "low",
+    "required_documents": ["business_license", "tax_certificate"],
+    "status": "approved",
+    "created_at": "2026-06-22T11:30:00",
+    "updated_at": "2026-06-25T16:10:00",
+    "internal_notes": "Long-term low-risk office supplier."
+  },
+  {
+    "id": 3,
+    "name": "BlueRiver Cloud Services",
+    "business_type": "software_vendor",
+    "contact_email": "security@bluerivercloud.example",
+    "contact_phone": "+92-300-2101003",
+    "country": "United Arab Emirates",
+    "risk_level": "high",
+    "required_documents": ["business_license", "data_processing_agreement", "security_certificate"],
+    "status": "draft",
+    "created_at": "2026-07-05T08:15:00",
+    "updated_at": "2026-07-05T08:15:00",
+    "internal_notes": "High-risk because vendor may process customer data."
+  },
+  {
+    "id": 4,
+    "name": "GreenLine Facilities",
+    "business_type": "facilities",
+    "contact_email": "admin@greenlinefacilities.example",
+    "contact_phone": "+92-300-2101004",
+    "country": "Pakistan",
+    "risk_level": "medium",
+    "required_documents": ["business_license", "tax_certificate", "insurance_certificate"],
+    "status": "rejected",
+    "created_at": "2026-06-18T10:45:00",
+    "updated_at": "2026-06-21T12:35:00",
+    "internal_notes": "Rejected due to expired insurance certificate."
+  }
+]

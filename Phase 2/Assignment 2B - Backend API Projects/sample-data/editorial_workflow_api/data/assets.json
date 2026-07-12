@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "submission_id": 1,
+    "asset_type": "cover_image",
+    "caption": "Abstract backend architecture image",
+    "original_filename": "api-cover.png",
+    "stored_filename": "submission-1-api-cover.png",
+    "storage_path": "uploads/editorial_assets/submission-1-api-cover.png",
+    "content_type": "image/png",
+    "size_kb": 512,
+    "status": "approved",
+    "uploaded_at": "2026-07-02T11:00:00"
+  },
+  {
+    "id": 2,
+    "submission_id": 2,
+    "asset_type": "cover_image",
+    "caption": "Error response diagram",
+    "original_filename": "error-response-cover.jpg",
+    "stored_filename": "submission-2-error-response-cover.jpg",
+    "storage_path": "uploads/editorial_assets/submission-2-error-response-cover.jpg",
+    "content_type": "image/jpeg",
+    "size_kb": 440,
+    "status": "approved",
+    "uploaded_at": "2026-06-20T12:00:00"
+  },
+  {
+    "id": 3,
+    "submission_id": 3,
+    "asset_type": "attachment",
+    "caption": "Checklist worksheet draft",
+    "original_filename": "ops-checklist.pdf",
+    "stored_filename": "submission-3-ops-checklist.pdf",
+    "storage_path": "uploads/editorial_assets/submission-3-ops-checklist.pdf",
+    "content_type": "application/pdf",
+    "size_kb": 295,
+    "status": "pending_review",
+    "uploaded_at": "2026-07-04T14:10:00"
+  }
+]

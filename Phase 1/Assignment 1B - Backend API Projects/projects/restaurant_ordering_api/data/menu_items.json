@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Chicken Tikka",
+    "category": "starter",
+    "description": "Char-grilled chicken tikka served with mint chutney.",
+    "price": 950.0,
+    "available": true,
+    "tags": ["spicy", "grill"]
+  },
+  {
+    "id": 2,
+    "name": "Loaded Fries",
+    "category": "side",
+    "description": "Crispy fries topped with cheese sauce and jalapenos.",
+    "price": 650.0,
+    "available": true,
+    "tags": ["cheesy", "shareable"]
+  },
+  {
+    "id": 3,
+    "name": "Beef Burger",
+    "category": "main",
+    "description": "Juicy beef burger with lettuce, onion, and house sauce.",
+    "price": 1350.0,
+    "available": true,
+    "tags": ["beef", "signature"]
+  },
+  {
+    "id": 4,
+    "name": "Chicken Alfredo Pasta",
+    "category": "main",
+    "description": "Creamy pasta with grilled chicken and parmesan.",
+    "price": 1450.0,
+    "available": true,
+    "tags": ["pasta", "creamy"]
+  },
+  {
+    "id": 5,
+    "name": "Margherita Pizza",
+    "category": "main",
+    "description": "Stone-baked pizza with mozzarella, basil, and tomato sauce.",
+    "price": 1600.0,
+    "available": true,
+    "tags": ["pizza", "vegetarian"]
+  },
+  {
+    "id": 6,
+    "name": "Chocolate Lava Cake",
+    "category": "dessert",
+    "description": "Warm chocolate cake with molten center and vanilla scoop.",
+    "price": 780.0,
+    "available": true,
+    "tags": ["dessert", "chocolate"]
+  },
+  {
+    "id": 7,
+    "name": "Mint Margarita",
+    "category": "drink",
+    "description": "Refreshing mint drink blended with ice and lemon.",
+    "price": 420.0,
+    "available": true,
+    "tags": ["cold", "refreshing"]
+  },
+  {
+    "id": 8,
+    "name": "Grilled Sandwich",
+    "category": "main",
+    "description": "Toasted sandwich with chicken, cheese, and vegetables.",
+    "price": 890.0,
+    "available": false,
+    "tags": ["sandwich", "light meal"]
+  },
+  {
+    "id": 9,
+    "name": "Caesar Salad",
+    "category": "starter",
+    "description": "Romaine lettuce, croutons, dressing, and parmesan.",
+    "price": 720.0,
+    "available": true,
+    "tags": ["salad", "fresh"]
+  },
+  {
+    "id": 10,
+    "name": "Garlic Bread",
+    "category": "side",
+    "description": "Toasted garlic bread with butter and herbs.",
+    "price": 380.0,
+    "available": true,
+    "tags": ["bread", "starter side"]
+  }
+]

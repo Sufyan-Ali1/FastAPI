@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "title": "Building Reliable Internal APIs",
+    "summary": "A practical guide to designing maintainable internal backend APIs.",
+    "body": "Long-form draft content about API design, validation, and operational clarity.",
+    "author_name": "Rida Khan",
+    "tags": ["backend", "api", "engineering"],
+    "status": "review",
+    "assigned_editor": "Hassan",
+    "created_at": "2026-07-01T09:00:00",
+    "updated_at": "2026-07-04T10:15:00",
+    "internal_review_notes": "Strong draft. Needs clearer examples."
+  },
+  {
+    "id": 2,
+    "title": "Designing Better Error Responses",
+    "summary": "How consistent error responses improve API client experience.",
+    "body": "Draft article covering validation errors, business errors, and response consistency.",
+    "author_name": "Sameer Ali",
+    "tags": ["fastapi", "errors", "api-design"],
+    "status": "published",
+    "assigned_editor": "Mina",
+    "created_at": "2026-06-18T11:30:00",
+    "updated_at": "2026-06-25T16:00:00",
+    "internal_review_notes": "Published after two edits."
+  },
+  {
+    "id": 3,
+    "title": "Operational Checklists For Small Teams",
+    "summary": "Simple checklist patterns for teams managing backend services.",
+    "body": "Draft content focused on practical team operations and incident prevention.",
+    "author_name": "Anaya Sheikh",
+    "tags": ["operations", "backend", "process"],
+    "status": "revision_requested",
+    "assigned_editor": "Hassan",
+    "created_at": "2026-07-03T13:00:00",
+    "updated_at": "2026-07-05T09:20:00",
+    "internal_review_notes": "Needs more concrete examples before approval."
+  },
+  {
+    "id": 4,
+    "title": "A Short Note On API Documentation",
+    "summary": "A concise article about keeping API docs useful.",
+    "body": "Short draft about docs quality and endpoint examples.",
+    "author_name": "Bilal Qureshi",
+    "tags": ["documentation", "api"],
+    "status": "draft",
+    "assigned_editor": null,
+    "created_at": "2026-07-06T08:45:00",
+    "updated_at": "2026-07-06T08:45:00",
+    "internal_review_notes": ""
+  }
+]

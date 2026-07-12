@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "TechSource Distributors",
+    "contact_email": "sales@techsource.example",
+    "phone": "+92-300-7001001",
+    "city": "Karachi",
+    "active": true
+  },
+  {
+    "id": 2,
+    "name": "Prime Gadgets Supply",
+    "contact_email": "orders@primegadgets.example",
+    "phone": "+92-300-7001002",
+    "city": "Lahore",
+    "active": true
+  },
+  {
+    "id": 3,
+    "name": "Legacy Hardware Traders",
+    "contact_email": "contact@legacyhardware.example",
+    "phone": "+92-300-7001003",
+    "city": "Islamabad",
+    "active": false
+  }
+]

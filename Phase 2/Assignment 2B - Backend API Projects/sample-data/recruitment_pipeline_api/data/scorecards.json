@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "interview_id": 2,
+    "application_id": 4,
+    "submitted_by": "Muneeb",
+    "communication_score": 4,
+    "technical_score": 4,
+    "recommendation": "hire",
+    "summary": "Clear communicator with strong operations judgment.",
+    "submitted_at": "2026-05-30T16:00:00"
+  }
+]

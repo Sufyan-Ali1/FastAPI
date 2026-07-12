@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "submission_id": 1,
+    "comment_type": "editorial",
+    "message": "Add one complete endpoint example to make the article more concrete.",
+    "visible_to_author": true,
+    "editor_name": "Hassan",
+    "created_at": "2026-07-04T10:15:00"
+  },
+  {
+    "id": 2,
+    "submission_id": 2,
+    "comment_type": "approval",
+    "message": "Approved for publication after final copy edit.",
+    "visible_to_author": true,
+    "editor_name": "Mina",
+    "created_at": "2026-06-25T15:20:00"
+  },
+  {
+    "id": 3,
+    "submission_id": 3,
+    "comment_type": "revision",
+    "message": "The checklist section needs clearer before-and-after examples.",
+    "visible_to_author": true,
+    "editor_name": "Hassan",
+    "created_at": "2026-07-05T09:20:00"
+  },
+  {
+    "id": 4,
+    "submission_id": 1,
+    "comment_type": "internal",
+    "message": "Potential candidate for featured engineering post after revisions.",
+    "visible_to_author": false,
+    "editor_name": "Hassan",
+    "created_at": "2026-07-04T10:30:00"
+  }
+]

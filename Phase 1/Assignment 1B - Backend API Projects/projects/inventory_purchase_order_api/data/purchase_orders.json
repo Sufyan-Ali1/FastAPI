@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "supplier_id": 1,
+    "status": "draft",
+    "notes": "Restock key accessories before weekend demand.",
+    "items": [
+      {
+        "product_id": 4,
+        "quantity": 5,
+        "unit_price": 18500.0,
+        "line_total": 92500.0
+      },
+      {
+        "product_id": 5,
+        "quantity": 10,
+        "unit_price": 6500.0,
+        "line_total": 65000.0
+      }
+    ],
+    "total_amount": 157500.0
+  },
+  {
+    "id": 2,
+    "supplier_id": 2,
+    "status": "received",
+    "notes": "Monitor and mouse refill order already delivered.",
+    "items": [
+      {
+        "product_id": 2,
+        "quantity": 15,
+        "unit_price": 4800.0,
+        "line_total": 72000.0
+      },
+      {
+        "product_id": 3,
+        "quantity": 3,
+        "unit_price": 52000.0,
+        "line_total": 156000.0
+      }
+    ],
+    "total_amount": 228000.0
+  }
+]

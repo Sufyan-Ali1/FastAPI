@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "incident_id": 1,
+    "event_type": "created",
+    "message": "Incident opened after payment webhook failures were detected.",
+    "visible_to_reporter": true,
+    "operator_name": "Ops Console",
+    "created_at": "2026-07-06T08:10:00"
+  },
+  {
+    "id": 2,
+    "incident_id": 1,
+    "event_type": "assigned",
+    "message": "Assigned to Farhan for investigation.",
+    "visible_to_reporter": false,
+    "operator_name": "Nadia",
+    "created_at": "2026-07-06T08:30:00"
+  },
+  {
+    "id": 3,
+    "incident_id": 2,
+    "event_type": "triaged",
+    "message": "Issue reproduced with large CSV exports.",
+    "visible_to_reporter": true,
+    "operator_name": "Sadia",
+    "created_at": "2026-07-04T13:00:00"
+  },
+  {
+    "id": 4,
+    "incident_id": 3,
+    "event_type": "resolved",
+    "message": "Avatar file path mapping corrected and verified.",
+    "visible_to_reporter": true,
+    "operator_name": "Hamid",
+    "created_at": "2026-06-29T15:20:00"
+  },
+  {
+    "id": 5,
+    "incident_id": 4,
+    "event_type": "closed",
+    "message": "Typo corrected and public page confirmed.",
+    "visible_to_reporter": true,
+    "operator_name": "Mina",
+    "created_at": "2026-06-20T12:10:00"
+  }
+]

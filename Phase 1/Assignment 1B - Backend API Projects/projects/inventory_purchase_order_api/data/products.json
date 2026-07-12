@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Mechanical Keyboard",
+    "sku": "KB-1001",
+    "category": "peripherals",
+    "unit_price": 14500.0,
+    "stock_quantity": 12,
+    "reorder_level": 5,
+    "active": true
+  },
+  {
+    "id": 2,
+    "name": "Wireless Mouse",
+    "sku": "MS-1002",
+    "category": "peripherals",
+    "unit_price": 4800.0,
+    "stock_quantity": 30,
+    "reorder_level": 10,
+    "active": true
+  },
+  {
+    "id": 3,
+    "name": "27 Inch Monitor",
+    "sku": "MN-1003",
+    "category": "displays",
+    "unit_price": 52000.0,
+    "stock_quantity": 7,
+    "reorder_level": 4,
+    "active": true
+  },
+  {
+    "id": 4,
+    "name": "USB-C Dock",
+    "sku": "DK-1004",
+    "category": "accessories",
+    "unit_price": 18500.0,
+    "stock_quantity": 4,
+    "reorder_level": 6,
+    "active": true
+  },
+  {
+    "id": 5,
+    "name": "Laptop Stand",
+    "sku": "LS-1005",
+    "category": "accessories",
+    "unit_price": 6500.0,
+    "stock_quantity": 18,
+    "reorder_level": 8,
+    "active": true
+  },
+  {
+    "id": 6,
+    "name": "Ethernet Adapter",
+    "sku": "EA-1006",
+    "category": "networking",
+    "unit_price": 3500.0,
+    "stock_quantity": 0,
+    "reorder_level": 5,
+    "active": false
+  }
+]

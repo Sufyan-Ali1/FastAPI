@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "incident_id": 1,
+    "evidence_type": "log",
+    "caption": "Webhook retry logs",
+    "original_filename": "webhook-errors.txt",
+    "stored_filename": "incident-1-webhook-errors.txt",
+    "storage_path": "uploads/evidence/incident-1-webhook-errors.txt",
+    "content_type": "text/plain",
+    "size_kb": 72,
+    "uploaded_by": "Farhan",
+    "uploaded_at": "2026-07-06T08:45:00"
+  },
+  {
+    "id": 2,
+    "incident_id": 2,
+    "evidence_type": "screenshot",
+    "caption": "Slow export screenshot",
+    "original_filename": "slow-export.png",
+    "stored_filename": "incident-2-slow-export.png",
+    "storage_path": "uploads/evidence/incident-2-slow-export.png",
+    "content_type": "image/png",
+    "size_kb": 340,
+    "uploaded_by": "Sadia",
+    "uploaded_at": "2026-07-04T12:45:00"
+  },
+  {
+    "id": 3,
+    "incident_id": 3,
+    "evidence_type": "screenshot",
+    "caption": "Broken preview before fix",
+    "original_filename": "avatar-preview.jpg",
+    "stored_filename": "incident-3-avatar-preview.jpg",
+    "storage_path": "uploads/evidence/incident-3-avatar-preview.jpg",
+    "content_type": "image/jpeg",
+    "size_kb": 210,
+    "uploaded_by": "Hamid",
+    "uploaded_at": "2026-06-28T10:10:00"
+  }
+]

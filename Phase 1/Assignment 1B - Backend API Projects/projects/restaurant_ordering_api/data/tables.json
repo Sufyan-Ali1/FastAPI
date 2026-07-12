@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "table_number": 1,
+    "capacity": 2,
+    "section": "indoor",
+    "occupied": false
+  },
+  {
+    "id": 2,
+    "table_number": 2,
+    "capacity": 4,
+    "section": "indoor",
+    "occupied": true
+  },
+  {
+    "id": 3,
+    "table_number": 7,
+    "capacity": 6,
+    "section": "vip",
+    "occupied": false
+  },
+  {
+    "id": 4,
+    "table_number": 11,
+    "capacity": 4,
+    "section": "outdoor",
+    "occupied": true
+  },
+  {
+    "id": 5,
+    "table_number": 15,
+    "capacity": 3,
+    "section": "bar",
+    "occupied": false
+  }
+]

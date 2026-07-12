@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "full_name": "Zain Ahmed",
+    "email": "zain.ahmed@example.com",
+    "phone": "+92-300-3201001",
+    "years_experience": 3,
+    "skills": ["python", "fastapi", "rest api"],
+    "resume_filename": "candidate-1-zain-ahmed.pdf",
+    "resume_path": "uploads/resumes/candidate-1-zain-ahmed.pdf",
+    "created_at": "2026-06-18T14:00:00"
+  },
+  {
+    "id": 2,
+    "full_name": "Mehak Raza",
+    "email": "mehak.raza@example.com",
+    "phone": "+92-300-3201002",
+    "years_experience": 5,
+    "skills": ["testing", "automation", "api validation"],
+    "resume_filename": "candidate-2-mehak-raza.pdf",
+    "resume_path": "uploads/resumes/candidate-2-mehak-raza.pdf",
+    "created_at": "2026-06-22T11:45:00"
+  },
+  {
+    "id": 3,
+    "full_name": "Bilal Shah",
+    "email": "bilal.shah@example.com",
+    "phone": "+92-300-3201003",
+    "years_experience": 2,
+    "skills": ["python", "sql", "dashboards"],
+    "resume_filename": null,
+    "resume_path": null,
+    "created_at": "2026-07-01T09:10:00"
+  },
+  {
+    "id": 4,
+    "full_name": "Anum Siddiqui",
+    "email": "anum.siddiqui@example.com",
+    "phone": "+92-300-3201004",
+    "years_experience": 6,
+    "skills": ["product operations", "analytics", "process design"],
+    "resume_filename": "candidate-4-anum-siddiqui.pdf",
+    "resume_path": "uploads/resumes/candidate-4-anum-siddiqui.pdf",
+    "created_at": "2026-05-14T10:20:00"
+  }
+]

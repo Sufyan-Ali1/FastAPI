@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Ali Raza",
+    "email": "ali.raza@example.com",
+    "phone": "+92-300-8001001",
+    "company": "Northwind Logistics",
+    "contact_address": {
+      "city": "Karachi",
+      "country": "Pakistan",
+      "postal_code": "75290"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Sara Khan",
+    "email": "sara.khan@example.com",
+    "phone": "+92-300-8001002",
+    "company": "EduBridge",
+    "contact_address": {
+      "city": "Lahore",
+      "country": "Pakistan",
+      "postal_code": "54000"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Hamza Tariq",
+    "email": "hamza.tariq@example.com",
+    "phone": "+92-300-8001003",
+    "company": "Pixel Forge",
+    "contact_address": {
+      "city": "Islamabad",
+      "country": "Pakistan",
+      "postal_code": "44000"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Minal Javed",
+    "email": "minal.javed@example.com",
+    "phone": "+92-300-8001004",
+    "company": "HealthPoint",
+    "contact_address": {
+      "city": "Rawalpindi",
+      "country": "Pakistan",
+      "postal_code": "46000"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Faisal Siddiqui",
+    "email": "faisal.siddiqui@example.com",
+    "phone": "+92-300-8001005",
+    "company": "Retail Grid",
+    "contact_address": {
+      "city": "Faisalabad",
+      "country": "Pakistan",
+      "postal_code": "38000"
+    }
+  }
+]

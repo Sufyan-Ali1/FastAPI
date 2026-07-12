@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "customer_id": 1,
+    "subject": "Unable to generate shipping labels",
+    "description": "The dashboard fails whenever we try to generate shipping labels for bulk orders.",
+    "category": "technical",
+    "priority": "high",
+    "status": "open",
+    "assigned_agent": null,
+    "comments": []
+  },
+  {
+    "id": 2,
+    "customer_id": 2,
+    "subject": "Invoice amount looks incorrect",
+    "description": "Our latest monthly invoice includes an amount that does not match our current plan usage.",
+    "category": "billing",
+    "priority": "medium",
+    "status": "resolved",
+    "assigned_agent": "Areeba",
+    "comments": [
+      {
+        "author_name": "Areeba",
+        "visibility": "public",
+        "message": "We corrected the invoice and shared the updated version."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "customer_id": 3,
+    "subject": "Need access for a new team member",
+    "description": "A new designer joined our team and needs account access with the same project permissions.",
+    "category": "account",
+    "priority": "low",
+    "status": "in_progress",
+    "assigned_agent": "Usama",
+    "comments": [
+      {
+        "author_name": "Usama",
+        "visibility": "internal",
+        "message": "Waiting for role confirmation before provisioning access."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "customer_id": 4,
+    "subject": "Profile settings page loads very slowly",
+    "description": "Several staff members reported that the profile settings screen takes too long to load during peak hours.",
+    "category": "technical",
+    "priority": "urgent",
+    "status": "open",
+    "assigned_agent": null,
+    "comments": []
+  },
+  {
+    "id": 5,
+    "customer_id": 5,
+    "subject": "Need clarification on refund process",
+    "description": "Our finance team needs a clearer explanation of the refund flow for partially cancelled orders.",
+    "category": "general",
+    "priority": "medium",
+    "status": "resolved",
+    "assigned_agent": "Noman",
+    "comments": [
+      {
+        "author_name": "Noman",
+        "visibility": "public",
+        "message": "Shared the refund policy and sample scenarios with the customer."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "customer_id": 1,
+    "subject": "Cannot update warehouse address",
+    "description": "Saving the new warehouse address returns a generic error message without applying the change.",
+    "category": "account",
+    "priority": "high",
+    "status": "in_progress",
+    "assigned_agent": "Fatima",
+    "comments": [
+      {
+        "author_name": "Fatima",
+        "visibility": "public",
+        "message": "We are checking the account settings service and will update you shortly."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "customer_id": 2,
+    "subject": "Course export CSV is missing columns",
+    "description": "When exporting student performance reports, the generated CSV omits attendance and final grade columns.",
+    "category": "technical",
+    "priority": "high",
+    "status": "open",
+    "assigned_agent": null,
+    "comments": []
+  },
+  {
+    "id": 8,
+    "customer_id": 3,
+    "subject": "Question about annual billing upgrade",
+    "description": "We want to move from monthly billing to annual billing and need pricing and migration details.",
+    "category": "billing",
+    "priority": "low",
+    "status": "open",
+    "assigned_agent": null,
+    "comments": []
+  }
+]

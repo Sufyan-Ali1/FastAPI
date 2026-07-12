@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "Backend API Developer",
+    "department": "Engineering",
+    "location": "Lahore",
+    "employment_type": "full_time",
+    "openings": 2,
+    "status": "open",
+    "created_at": "2026-06-15T09:00:00",
+    "internal_notes": "Prioritize FastAPI and API design experience."
+  },
+  {
+    "id": 2,
+    "title": "QA Automation Engineer",
+    "department": "Quality",
+    "location": "Remote",
+    "employment_type": "contract",
+    "openings": 1,
+    "status": "open",
+    "created_at": "2026-06-20T10:30:00",
+    "internal_notes": "Experience with API testing is useful but not required."
+  },
+  {
+    "id": 3,
+    "title": "Product Operations Analyst",
+    "department": "Operations",
+    "location": "Karachi",
+    "employment_type": "full_time",
+    "openings": 1,
+    "status": "closed",
+    "created_at": "2026-05-10T12:00:00",
+    "internal_notes": "Role filled in June hiring cycle."
+  }
+]
