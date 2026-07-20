@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "FastAPI from Zero to Production",
+    "slug": "fastapi-zero-to-production",
+    "instructor_id": 1,
+    "level": "intermediate",
+    "price": 49.99,
+    "status": "published",
+    "published_at": "2026-05-01T09:00:00"
+  },
+  {
+    "id": 2,
+    "title": "Practical SQL for Developers",
+    "slug": "practical-sql-for-developers",
+    "instructor_id": 1,
+    "level": "beginner",
+    "price": 29.99,
+    "status": "published",
+    "published_at": "2026-05-10T09:00:00"
+  },
+  {
+    "id": 3,
+    "title": "Data Analysis with Python",
+    "slug": "data-analysis-with-python",
+    "instructor_id": 2,
+    "level": "beginner",
+    "price": 39.99,
+    "status": "published",
+    "published_at": "2026-04-20T09:00:00"
+  },
+  {
+    "id": 4,
+    "title": "Modern CSS Layouts",
+    "slug": "modern-css-layouts",
+    "instructor_id": 3,
+    "level": "beginner",
+    "price": 0.0,
+    "status": "published",
+    "published_at": "2026-06-01T09:00:00"
+  },
+  {
+    "id": 5,
+    "title": "Kubernetes in Depth",
+    "slug": "kubernetes-in-depth",
+    "instructor_id": 4,
+    "level": "advanced",
+    "price": 79.99,
+    "status": "draft",
+    "published_at": null
+  },
+  {
+    "id": 6,
+    "title": "Product Discovery Fundamentals",
+    "slug": "product-discovery-fundamentals",
+    "instructor_id": 5,
+    "level": "intermediate",
+    "price": 34.99,
+    "status": "published",
+    "published_at": "2026-06-15T09:00:00"
+  }
+]

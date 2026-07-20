@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Ravi Shah",
+    "email": "ravi.shah@example.com"
+  },
+  {
+    "id": 2,
+    "name": "Emma Novak",
+    "email": "emma.novak@example.com"
+  },
+  {
+    "id": 3,
+    "name": "Diego Santos",
+    "email": "diego.santos@example.com"
+  },
+  {
+    "id": 4,
+    "name": "Fatima Zahra",
+    "email": "fatima.zahra@example.com"
+  },
+  {
+    "id": 5,
+    "name": "Liam O'Brien",
+    "email": "liam.obrien@example.com"
+  },
+  {
+    "id": 6,
+    "name": "Yuki Tanaka",
+    "email": "yuki.tanaka@example.com"
+  },
+  {
+    "id": 7,
+    "name": "Nadia Petrova",
+    "email": "nadia.petrova@example.com"
+  },
+  {
+    "id": 8,
+    "name": "Carlos Mendes",
+    "email": "carlos.mendes@example.com"
+  }
+]

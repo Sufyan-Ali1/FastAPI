@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Ursula K. Le Guin",
+    "bio": "Author of speculative fiction.",
+    "created_at": "2026-01-05T09:00:00"
+  },
+  {
+    "id": 2,
+    "name": "Chinua Achebe",
+    "bio": "Nigerian novelist and critic.",
+    "created_at": "2026-01-05T09:05:00"
+  },
+  {
+    "id": 3,
+    "name": "Kazuo Ishiguro",
+    "bio": "Nobel Prize-winning novelist.",
+    "created_at": "2026-01-05T09:10:00"
+  },
+  {
+    "id": 4,
+    "name": "Toni Morrison",
+    "bio": "Pulitzer Prize-winning author.",
+    "created_at": "2026-01-05T09:15:00"
+  },
+  {
+    "id": 5,
+    "name": "Neil Gaiman",
+    "bio": "Author of fantasy and graphic novels.",
+    "created_at": "2026-01-05T09:20:00"
+  },
+  {
+    "id": 6,
+    "name": "Terry Pratchett",
+    "bio": "Author of the Discworld series.",
+    "created_at": "2026-01-05T09:25:00"
+  },
+  {
+    "id": 7,
+    "name": "Yuval Noah Harari",
+    "bio": "Historian and non-fiction author.",
+    "created_at": "2026-01-05T09:30:00"
+  },
+  {
+    "id": 8,
+    "name": "Margaret Atwood",
+    "bio": "Canadian poet and novelist.",
+    "created_at": "2026-01-05T09:35:00"
+  },
+  {
+    "id": 9,
+    "name": "Haruki Murakami",
+    "bio": "Japanese contemporary novelist.",
+    "created_at": "2026-01-05T09:40:00"
+  },
+  {
+    "id": 10,
+    "name": "Octavia E. Butler",
+    "bio": "Award-winning science fiction author.",
+    "created_at": "2026-01-05T09:45:00"
+  }
+]

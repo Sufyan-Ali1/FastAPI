@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "module_id": 1,
+    "title": "What is FastAPI",
+    "content_type": "article",
+    "duration_minutes": 11,
+    "position": 1,
+    "is_preview": true
+  },
+  {
+    "id": 2,
+    "module_id": 1,
+    "title": "First Endpoint",
+    "content_type": "quiz",
+    "duration_minutes": 14,
+    "position": 2,
+    "is_preview": false
+  },
+  {
+    "id": 3,
+    "module_id": 1,
+    "title": "Request Validation",
+    "content_type": "video",
+    "duration_minutes": 17,
+    "position": 3,
+    "is_preview": false
+  },
+  {
+    "id": 4,
+    "module_id": 2,
+    "title": "Defining Models",
+    "content_type": "article",
+    "duration_minutes": 20,
+    "position": 1,
+    "is_preview": false
+  },
+  {
+    "id": 5,
+    "module_id": 2,
+    "title": "Sessions and CRUD",
+    "content_type": "quiz",
+    "duration_minutes": 8,
+    "position": 2,
+    "is_preview": false
+  },
+  {
+    "id": 6,
+    "module_id": 2,
+    "title": "Migrations with Alembic",
+    "content_type": "video",
+    "duration_minutes": 11,
+    "position": 3,
+    "is_preview": false
+  },
+  {
+    "id": 7,
+    "module_id": 3,
+    "title": "Docker Basics",
+    "content_type": "article",
+    "duration_minutes": 14,
+    "position": 1,
+    "is_preview": false
+  },
+  {
+    "id": 8,
+    "module_id": 3,
+    "title": "Going Live",
+    "content_type": "quiz",
+    "duration_minutes": 17,
+    "position": 2,
+    "is_preview": false
+  },
+  {
+    "id": 9,
+    "module_id": 4,
+    "title": "SELECT Statements",
+    "content_type": "video",
+    "duration_minutes": 20,
+    "position": 1,
+    "is_preview": true
+  },
+  {
+    "id": 10,
+    "module_id": 4,
+    "title": "Filtering Rows",
+    "content_type": "article",
+    "duration_minutes": 8,
+    "position": 2,
+    "is_preview": false
+  },
+  {
+    "id": 11,
+    "module_id": 5,
+    "title": "INNER and LEFT Joins",
+    "content_type": "quiz",
+    "duration_minutes": 11,
+    "position": 1,
+    "is_preview": false
+  },
+  {
+    "id": 12,
+    "module_id": 5,
+    "title": "GROUP BY",
+    "content_type": "video",
+    "duration_minutes": 14,
+    "position": 2,
+    "is_preview": false
+  },
+  {
+    "id": 13,
+    "module_id": 6,
+    "title": "Series and DataFrames",
+    "content_type": "article",
+    "duration_minutes": 17,
+    "position": 1,
+    "is_preview": true
+  },
+  {
+    "id": 14,
+    "module_id": 6,
+    "title": "Cleaning Data",
+    "content_type": "quiz",
+    "duration_minutes": 20,
+    "position": 2,
+    "is_preview": false
+  },
+  {
+    "id": 15,
+    "module_id": 7,
+    "title": "Plotting with Matplotlib",
+    "content_type": "video",
+    "duration_minutes": 8,
+    "position": 1,
+    "is_preview": false
+  },
+  {
+    "id": 16,
+    "module_id": 7,
+    "title": "Dashboards",
+    "content_type": "article",
+    "duration_minutes": 11,
+    "position": 2,
+    "is_preview": false
+  },
+  {
+    "id": 17,
+    "module_id": 8,
+    "title": "The Flex Container",
+    "content_type": "quiz",
+    "duration_minutes": 14,
+    "position": 1,
+    "is_preview": false
+  },
+  {
+    "id": 18,
+    "module_id": 8,
+    "title": "Alignment",
+    "content_type": "video",
+    "duration_minutes": 17,
+    "position": 2,
+    "is_preview": false
+  },
+  {
+    "id": 19,
+    "module_id": 9,
+    "title": "Grid Tracks",
+    "content_type": "article",
+    "duration_minutes": 20,
+    "position": 1,
+    "is_preview": false
+  },
+  {
+    "id": 20,
+    "module_id": 9,
+    "title": "Responsive Grids",
+    "content_type": "quiz",
+    "duration_minutes": 8,
+    "position": 2,
+    "is_preview": false
+  },
+  {
+    "id": 21,
+    "module_id": 10,
+    "title": "User Interviews",
+    "content_type": "video",
+    "duration_minutes": 11,
+    "position": 1,
+    "is_preview": false
+  },
+  {
+    "id": 22,
+    "module_id": 10,
+    "title": "Personas",
+    "content_type": "article",
+    "duration_minutes": 14,
+    "position": 2,
+    "is_preview": false
+  },
+  {
+    "id": 23,
+    "module_id": 11,
+    "title": "Assumption Mapping",
+    "content_type": "quiz",
+    "duration_minutes": 17,
+    "position": 1,
+    "is_preview": false
+  },
+  {
+    "id": 24,
+    "module_id": 11,
+    "title": "Prototyping",
+    "content_type": "video",
+    "duration_minutes": 20,
+    "position": 2,
+    "is_preview": false
+  }
+]

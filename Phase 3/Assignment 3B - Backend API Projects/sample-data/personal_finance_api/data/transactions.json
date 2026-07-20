@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "account_id": 1,
+    "category_id": 2,
+    "type": "income",
+    "amount": 4200.0,
+    "occurred_on": "2026-05-01",
+    "description": "May salary",
+    "merchant": "Acme Corp",
+    "is_cleared": true
+  },
+  {
+    "id": 2,
+    "account_id": 1,
+    "category_id": 5,
+    "type": "expense",
+    "amount": 1400.0,
+    "occurred_on": "2026-05-03",
+    "description": "May rent",
+    "merchant": "Skyline Apts",
+    "is_cleared": true
+  },
+  {
+    "id": 3,
+    "account_id": 1,
+    "category_id": 4,
+    "type": "expense",
+    "amount": 260.35,
+    "occurred_on": "2026-05-08",
+    "description": "Weekly groceries",
+    "merchant": "FreshMart",
+    "is_cleared": true
+  },
+  {
+    "id": 4,
+    "account_id": 1,
+    "category_id": 6,
+    "type": "expense",
+    "amount": 58.2,
+    "occurred_on": "2026-05-12",
+    "description": "Dinner",
+    "merchant": "Bistro 21",
+    "is_cleared": true
+  },
+  {
+    "id": 5,
+    "account_id": 1,
+    "category_id": 2,
+    "type": "income",
+    "amount": 4200.0,
+    "occurred_on": "2026-06-01",
+    "description": "June salary",
+    "merchant": "Acme Corp",
+    "is_cleared": true
+  },
+  {
+    "id": 6,
+    "account_id": 1,
+    "category_id": 5,
+    "type": "expense",
+    "amount": 1400.0,
+    "occurred_on": "2026-06-03",
+    "description": "June rent",
+    "merchant": "Skyline Apts",
+    "is_cleared": true
+  },
+  {
+    "id": 7,
+    "account_id": 1,
+    "category_id": 4,
+    "type": "expense",
+    "amount": 312.9,
+    "occurred_on": "2026-06-09",
+    "description": "Groceries",
+    "merchant": "FreshMart",
+    "is_cleared": true
+  },
+  {
+    "id": 8,
+    "account_id": 3,
+    "category_id": 6,
+    "type": "expense",
+    "amount": 142.75,
+    "occurred_on": "2026-06-15",
+    "description": "Team dinner",
+    "merchant": "Grill House",
+    "is_cleared": false
+  },
+  {
+    "id": 9,
+    "account_id": 4,
+    "category_id": 8,
+    "type": "income",
+    "amount": 1200.0,
+    "occurred_on": "2026-06-05",
+    "description": "Design project",
+    "merchant": "Studio Nord",
+    "is_cleared": true
+  },
+  {
+    "id": 10,
+    "account_id": 4,
+    "category_id": 10,
+    "type": "expense",
+    "amount": 180.0,
+    "occurred_on": "2026-06-07",
+    "description": "Electricity",
+    "merchant": "PowerCo",
+    "is_cleared": true
+  },
+  {
+    "id": 11,
+    "account_id": 4,
+    "category_id": 11,
+    "type": "expense",
+    "amount": 76.4,
+    "occurred_on": "2026-06-10",
+    "description": "Monthly transit pass",
+    "merchant": "CityTransit",
+    "is_cleared": true
+  },
+  {
+    "id": 12,
+    "account_id": 6,
+    "category_id": 13,
+    "type": "income",
+    "amount": 3800.0,
+    "occurred_on": "2026-06-01",
+    "description": "Salary",
+    "merchant": "Globex",
+    "is_cleared": true
+  },
+  {
+    "id": 13,
+    "account_id": 6,
+    "category_id": 15,
+    "type": "expense",
+    "amount": 220.1,
+    "occurred_on": "2026-06-06",
+    "description": "Groceries",
+    "merchant": "MegaMart",
+    "is_cleared": true
+  },
+  {
+    "id": 14,
+    "account_id": 7,
+    "category_id": 15,
+    "type": "expense",
+    "amount": 45.0,
+    "occurred_on": "2026-06-11",
+    "description": "Corner store",
+    "merchant": "QuickShop",
+    "is_cleared": true
+  }
+]

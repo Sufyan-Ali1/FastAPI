@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "user_id": 1,
+    "name": "Focus Flow",
+    "description": "Deep work soundtrack.",
+    "is_public": true
+  },
+  {
+    "id": 2,
+    "user_id": 1,
+    "name": "Late Night",
+    "description": "Private after-hours mix.",
+    "is_public": false
+  },
+  {
+    "id": 3,
+    "user_id": 2,
+    "name": "Indie Discoveries",
+    "description": "New indie finds.",
+    "is_public": true
+  },
+  {
+    "id": 4,
+    "user_id": 3,
+    "name": "Jazz Corner",
+    "description": null,
+    "is_public": true
+  },
+  {
+    "id": 5,
+    "user_id": 4,
+    "name": "Synth Drive",
+    "description": "Synthwave essentials.",
+    "is_public": true
+  },
+  {
+    "id": 6,
+    "user_id": 5,
+    "name": "Chill EP Picks",
+    "description": "Relaxed EPs.",
+    "is_public": false
+  }
+]

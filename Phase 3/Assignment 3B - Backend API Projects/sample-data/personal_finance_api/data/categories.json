@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "user_id": 1,
+    "name": "Income",
+    "kind": "income",
+    "parent_id": null
+  },
+  {
+    "id": 2,
+    "user_id": 1,
+    "name": "Salary",
+    "kind": "income",
+    "parent_id": 1
+  },
+  {
+    "id": 3,
+    "user_id": 1,
+    "name": "Expenses",
+    "kind": "expense",
+    "parent_id": null
+  },
+  {
+    "id": 4,
+    "user_id": 1,
+    "name": "Groceries",
+    "kind": "expense",
+    "parent_id": 3
+  },
+  {
+    "id": 5,
+    "user_id": 1,
+    "name": "Rent",
+    "kind": "expense",
+    "parent_id": 3
+  },
+  {
+    "id": 6,
+    "user_id": 1,
+    "name": "Dining Out",
+    "kind": "expense",
+    "parent_id": 3
+  },
+  {
+    "id": 7,
+    "user_id": 2,
+    "name": "Income",
+    "kind": "income",
+    "parent_id": null
+  },
+  {
+    "id": 8,
+    "user_id": 2,
+    "name": "Freelance",
+    "kind": "income",
+    "parent_id": 7
+  },
+  {
+    "id": 9,
+    "user_id": 2,
+    "name": "Expenses",
+    "kind": "expense",
+    "parent_id": null
+  },
+  {
+    "id": 10,
+    "user_id": 2,
+    "name": "Utilities",
+    "kind": "expense",
+    "parent_id": 9
+  },
+  {
+    "id": 11,
+    "user_id": 2,
+    "name": "Transport",
+    "kind": "expense",
+    "parent_id": 9
+  },
+  {
+    "id": 12,
+    "user_id": 3,
+    "name": "Income",
+    "kind": "income",
+    "parent_id": null
+  },
+  {
+    "id": 13,
+    "user_id": 3,
+    "name": "Salary",
+    "kind": "income",
+    "parent_id": 12
+  },
+  {
+    "id": 14,
+    "user_id": 3,
+    "name": "Expenses",
+    "kind": "expense",
+    "parent_id": null
+  },
+  {
+    "id": 15,
+    "user_id": 3,
+    "name": "Groceries",
+    "kind": "expense",
+    "parent_id": 14
+  }
+]

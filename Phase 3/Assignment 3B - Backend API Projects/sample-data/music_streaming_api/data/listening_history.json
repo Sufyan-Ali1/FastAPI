@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "user_id": 1,
+    "track_id": 1,
+    "played_at": "2026-07-10T08:00:00"
+  },
+  {
+    "id": 2,
+    "user_id": 1,
+    "track_id": 2,
+    "played_at": "2026-07-10T08:04:00"
+  },
+  {
+    "id": 3,
+    "user_id": 1,
+    "track_id": 12,
+    "played_at": "2026-07-10T08:09:00"
+  },
+  {
+    "id": 4,
+    "user_id": 2,
+    "track_id": 5,
+    "played_at": "2026-07-10T21:00:00"
+  },
+  {
+    "id": 5,
+    "user_id": 2,
+    "track_id": 6,
+    "played_at": "2026-07-10T21:05:00"
+  },
+  {
+    "id": 6,
+    "user_id": 2,
+    "track_id": 5,
+    "played_at": "2026-07-11T21:00:00"
+  },
+  {
+    "id": 7,
+    "user_id": 3,
+    "track_id": 18,
+    "played_at": "2026-07-11T19:00:00"
+  },
+  {
+    "id": 8,
+    "user_id": 3,
+    "track_id": 19,
+    "played_at": "2026-07-11T19:04:00"
+  },
+  {
+    "id": 9,
+    "user_id": 4,
+    "track_id": 1,
+    "played_at": "2026-07-12T09:00:00"
+  },
+  {
+    "id": 10,
+    "user_id": 4,
+    "track_id": 1,
+    "played_at": "2026-07-12T18:00:00"
+  },
+  {
+    "id": 11,
+    "user_id": 4,
+    "track_id": 27,
+    "played_at": "2026-07-12T18:05:00"
+  },
+  {
+    "id": 12,
+    "user_id": 5,
+    "track_id": 21,
+    "played_at": "2026-07-13T12:00:00"
+  },
+  {
+    "id": 13,
+    "user_id": 1,
+    "track_id": 1,
+    "played_at": "2026-07-13T08:00:00"
+  },
+  {
+    "id": 14,
+    "user_id": 2,
+    "track_id": 25,
+    "played_at": "2026-07-13T21:00:00"
+  },
+  {
+    "id": 15,
+    "user_id": 6,
+    "track_id": 3,
+    "played_at": "2026-07-14T15:00:00"
+  },
+  {
+    "id": 16,
+    "user_id": 1,
+    "track_id": 12,
+    "played_at": "2026-07-14T08:00:00"
+  },
+  {
+    "id": 17,
+    "user_id": 3,
+    "track_id": 18,
+    "played_at": "2026-07-14T19:00:00"
+  },
+  {
+    "id": 18,
+    "user_id": 4,
+    "track_id": 1,
+    "played_at": "2026-07-15T09:00:00"
+  },
+  {
+    "id": 19,
+    "user_id": 2,
+    "track_id": 6,
+    "played_at": "2026-07-15T21:00:00"
+  },
+  {
+    "id": 20,
+    "user_id": 5,
+    "track_id": 21,
+    "played_at": "2026-07-15T12:00:00"
+  }
+]

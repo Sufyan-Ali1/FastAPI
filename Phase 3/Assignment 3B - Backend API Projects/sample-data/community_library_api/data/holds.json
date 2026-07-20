@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "book_id": 8,
+    "member_id": 2,
+    "placed_at": "2026-07-12T10:00:00",
+    "position": 1,
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "book_id": 8,
+    "member_id": 6,
+    "placed_at": "2026-07-13T14:00:00",
+    "position": 2,
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "book_id": 10,
+    "member_id": 1,
+    "placed_at": "2026-07-14T09:00:00",
+    "position": 1,
+    "status": "active"
+  }
+]

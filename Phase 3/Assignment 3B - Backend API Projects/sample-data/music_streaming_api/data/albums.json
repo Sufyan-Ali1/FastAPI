@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Neon Horizons",
+    "artist_id": 1,
+    "release_date": "2026-03-15",
+    "album_type": "album"
+  },
+  {
+    "id": 2,
+    "title": "Paper Boats",
+    "artist_id": 2,
+    "release_date": "2026-02-01",
+    "album_type": "album"
+  },
+  {
+    "id": 3,
+    "title": "Dust and Static",
+    "artist_id": 3,
+    "release_date": "2026-04-10",
+    "album_type": "ep"
+  },
+  {
+    "id": 4,
+    "title": "Glasshouse",
+    "artist_id": 4,
+    "release_date": "2026-05-20",
+    "album_type": "album"
+  },
+  {
+    "id": 5,
+    "title": "After Hours Sessions",
+    "artist_id": 5,
+    "release_date": "2026-01-25",
+    "album_type": "album"
+  },
+  {
+    "id": 6,
+    "title": "Softwave",
+    "artist_id": 6,
+    "release_date": "2026-06-05",
+    "album_type": "ep"
+  },
+  {
+    "id": 7,
+    "title": "Pulse",
+    "artist_id": 7,
+    "release_date": "2026-03-30",
+    "album_type": "single"
+  },
+  {
+    "id": 8,
+    "title": "Radio Ghosts",
+    "artist_id": 8,
+    "release_date": "2026-05-02",
+    "album_type": "album"
+  },
+  {
+    "id": 9,
+    "title": "Reflections",
+    "artist_id": 1,
+    "release_date": "2026-06-25",
+    "album_type": "single"
+  },
+  {
+    "id": 10,
+    "title": "Northbound",
+    "artist_id": 2,
+    "release_date": "2026-06-30",
+    "album_type": "single"
+  }
+]

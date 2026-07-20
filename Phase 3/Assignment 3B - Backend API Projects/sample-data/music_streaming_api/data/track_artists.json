@@ -1,0 +1,152 @@
+[
+  {
+    "track_id": 1,
+    "artist_id": 1,
+    "role": "primary"
+  },
+  {
+    "track_id": 2,
+    "artist_id": 1,
+    "role": "primary"
+  },
+  {
+    "track_id": 3,
+    "artist_id": 1,
+    "role": "primary"
+  },
+  {
+    "track_id": 4,
+    "artist_id": 1,
+    "role": "primary"
+  },
+  {
+    "track_id": 5,
+    "artist_id": 2,
+    "role": "primary"
+  },
+  {
+    "track_id": 6,
+    "artist_id": 2,
+    "role": "primary"
+  },
+  {
+    "track_id": 7,
+    "artist_id": 2,
+    "role": "primary"
+  },
+  {
+    "track_id": 8,
+    "artist_id": 3,
+    "role": "primary"
+  },
+  {
+    "track_id": 9,
+    "artist_id": 3,
+    "role": "primary"
+  },
+  {
+    "track_id": 10,
+    "artist_id": 3,
+    "role": "primary"
+  },
+  {
+    "track_id": 11,
+    "artist_id": 4,
+    "role": "primary"
+  },
+  {
+    "track_id": 12,
+    "artist_id": 4,
+    "role": "primary"
+  },
+  {
+    "track_id": 13,
+    "artist_id": 4,
+    "role": "primary"
+  },
+  {
+    "track_id": 14,
+    "artist_id": 4,
+    "role": "primary"
+  },
+  {
+    "track_id": 15,
+    "artist_id": 5,
+    "role": "primary"
+  },
+  {
+    "track_id": 16,
+    "artist_id": 5,
+    "role": "primary"
+  },
+  {
+    "track_id": 17,
+    "artist_id": 5,
+    "role": "primary"
+  },
+  {
+    "track_id": 18,
+    "artist_id": 6,
+    "role": "primary"
+  },
+  {
+    "track_id": 19,
+    "artist_id": 6,
+    "role": "primary"
+  },
+  {
+    "track_id": 20,
+    "artist_id": 6,
+    "role": "primary"
+  },
+  {
+    "track_id": 21,
+    "artist_id": 7,
+    "role": "primary"
+  },
+  {
+    "track_id": 22,
+    "artist_id": 8,
+    "role": "primary"
+  },
+  {
+    "track_id": 23,
+    "artist_id": 8,
+    "role": "primary"
+  },
+  {
+    "track_id": 24,
+    "artist_id": 8,
+    "role": "primary"
+  },
+  {
+    "track_id": 25,
+    "artist_id": 8,
+    "role": "primary"
+  },
+  {
+    "track_id": 26,
+    "artist_id": 1,
+    "role": "primary"
+  },
+  {
+    "track_id": 27,
+    "artist_id": 2,
+    "role": "primary"
+  },
+  {
+    "track_id": 2,
+    "artist_id": 4,
+    "role": "featured"
+  },
+  {
+    "track_id": 15,
+    "artist_id": 6,
+    "role": "featured"
+  },
+  {
+    "track_id": 20,
+    "artist_id": 7,
+    "role": "featured"
+  }
+]

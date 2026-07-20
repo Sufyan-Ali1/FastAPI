@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "course_id": 1,
+    "title": "Getting Started",
+    "position": 1
+  },
+  {
+    "id": 2,
+    "course_id": 1,
+    "title": "Databases with SQLAlchemy",
+    "position": 2
+  },
+  {
+    "id": 3,
+    "course_id": 1,
+    "title": "Deployment",
+    "position": 3
+  },
+  {
+    "id": 4,
+    "course_id": 2,
+    "title": "SQL Basics",
+    "position": 1
+  },
+  {
+    "id": 5,
+    "course_id": 2,
+    "title": "Joins and Aggregations",
+    "position": 2
+  },
+  {
+    "id": 6,
+    "course_id": 3,
+    "title": "Pandas Foundations",
+    "position": 1
+  },
+  {
+    "id": 7,
+    "course_id": 3,
+    "title": "Visualization",
+    "position": 2
+  },
+  {
+    "id": 8,
+    "course_id": 4,
+    "title": "Flexbox",
+    "position": 1
+  },
+  {
+    "id": 9,
+    "course_id": 4,
+    "title": "Grid",
+    "position": 2
+  },
+  {
+    "id": 10,
+    "course_id": 6,
+    "title": "Understanding Users",
+    "position": 1
+  },
+  {
+    "id": 11,
+    "course_id": 6,
+    "title": "Validating Ideas",
+    "position": 2
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "enrollment_id": 3,
+    "lesson_id": 1,
+    "completed_at": "2026-06-15T12:00:00"
+  },
+  {
+    "id": 2,
+    "enrollment_id": 3,
+    "lesson_id": 2,
+    "completed_at": "2026-06-15T12:00:00"
+  },
+  {
+    "id": 3,
+    "enrollment_id": 3,
+    "lesson_id": 3,
+    "completed_at": "2026-06-15T12:00:00"
+  },
+  {
+    "id": 4,
+    "enrollment_id": 3,
+    "lesson_id": 4,
+    "completed_at": "2026-06-15T12:00:00"
+  },
+  {
+    "id": 5,
+    "enrollment_id": 3,
+    "lesson_id": 5,
+    "completed_at": "2026-06-15T12:00:00"
+  },
+  {
+    "id": 6,
+    "enrollment_id": 3,
+    "lesson_id": 6,
+    "completed_at": "2026-06-15T12:00:00"
+  },
+  {
+    "id": 7,
+    "enrollment_id": 3,
+    "lesson_id": 7,
+    "completed_at": "2026-06-15T12:00:00"
+  },
+  {
+    "id": 8,
+    "enrollment_id": 3,
+    "lesson_id": 8,
+    "completed_at": "2026-06-15T12:00:00"
+  },
+  {
+    "id": 9,
+    "enrollment_id": 1,
+    "lesson_id": 1,
+    "completed_at": "2026-06-18T09:00:00"
+  },
+  {
+    "id": 10,
+    "enrollment_id": 1,
+    "lesson_id": 2,
+    "completed_at": "2026-06-18T09:00:00"
+  },
+  {
+    "id": 11,
+    "enrollment_id": 1,
+    "lesson_id": 3,
+    "completed_at": "2026-06-18T09:00:00"
+  }
+]

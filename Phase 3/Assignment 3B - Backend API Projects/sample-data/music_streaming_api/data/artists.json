@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Nova Skyline",
+    "is_verified": true,
+    "bio": "Synthwave producer."
+  },
+  {
+    "id": 2,
+    "name": "The Wandering Echoes",
+    "is_verified": true,
+    "bio": "Indie folk band."
+  },
+  {
+    "id": 3,
+    "name": "Kito Marsh",
+    "is_verified": false,
+    "bio": "Lo-fi beatmaker."
+  },
+  {
+    "id": 4,
+    "name": "Aurelia",
+    "is_verified": true,
+    "bio": "Electronic vocalist."
+  },
+  {
+    "id": 5,
+    "name": "Brass Union",
+    "is_verified": false,
+    "bio": "Modern jazz collective."
+  },
+  {
+    "id": 6,
+    "name": "Solene",
+    "is_verified": true,
+    "bio": "Dream-pop artist."
+  },
+  {
+    "id": 7,
+    "name": "DJ Karim",
+    "is_verified": true,
+    "bio": "House and electronic DJ."
+  },
+  {
+    "id": 8,
+    "name": "The Midnight Signals",
+    "is_verified": false,
+    "bio": "Alt-rock trio."
+  }
+]

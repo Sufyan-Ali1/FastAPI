@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Elena Fischer",
+    "email": "elena.fischer@example.com",
+    "bio": "Backend engineering instructor."
+  },
+  {
+    "id": 2,
+    "name": "Marcus Bello",
+    "email": "marcus.bello@example.com",
+    "bio": "Data science educator."
+  },
+  {
+    "id": 3,
+    "name": "Aisha Rahman",
+    "email": "aisha.rahman@example.com",
+    "bio": "Frontend and UX specialist."
+  },
+  {
+    "id": 4,
+    "name": "Kenji Sato",
+    "email": "kenji.sato@example.com",
+    "bio": "Cloud and DevOps mentor."
+  },
+  {
+    "id": 5,
+    "name": "Lucia Ferrari",
+    "email": "lucia.ferrari@example.com",
+    "bio": "Product management coach."
+  }
+]

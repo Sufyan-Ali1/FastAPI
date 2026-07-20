@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "title": "Ignition",
+    "album_id": 1,
+    "duration_seconds": 157,
+    "track_number": 1,
+    "explicit": false
+  },
+  {
+    "id": 2,
+    "title": "City Lights",
+    "album_id": 1,
+    "duration_seconds": 164,
+    "track_number": 2,
+    "explicit": false
+  },
+  {
+    "id": 3,
+    "title": "Afterglow",
+    "album_id": 1,
+    "duration_seconds": 171,
+    "track_number": 3,
+    "explicit": false
+  },
+  {
+    "id": 4,
+    "title": "Redline",
+    "album_id": 1,
+    "duration_seconds": 178,
+    "track_number": 4,
+    "explicit": false
+  },
+  {
+    "id": 5,
+    "title": "Paper Boats",
+    "album_id": 2,
+    "duration_seconds": 185,
+    "track_number": 1,
+    "explicit": false
+  },
+  {
+    "id": 6,
+    "title": "Harbor",
+    "album_id": 2,
+    "duration_seconds": 192,
+    "track_number": 2,
+    "explicit": false
+  },
+  {
+    "id": 7,
+    "title": "Tidewater",
+    "album_id": 2,
+    "duration_seconds": 199,
+    "track_number": 3,
+    "explicit": false
+  },
+  {
+    "id": 8,
+    "title": "Static I",
+    "album_id": 3,
+    "duration_seconds": 206,
+    "track_number": 1,
+    "explicit": false
+  },
+  {
+    "id": 9,
+    "title": "Static II",
+    "album_id": 3,
+    "duration_seconds": 213,
+    "track_number": 2,
+    "explicit": true
+  },
+  {
+    "id": 10,
+    "title": "Dust",
+    "album_id": 3,
+    "duration_seconds": 220,
+    "track_number": 3,
+    "explicit": false
+  },
+  {
+    "id": 11,
+    "title": "Glasshouse",
+    "album_id": 4,
+    "duration_seconds": 227,
+    "track_number": 1,
+    "explicit": false
+  },
+  {
+    "id": 12,
+    "title": "Crystalline",
+    "album_id": 4,
+    "duration_seconds": 234,
+    "track_number": 2,
+    "explicit": false
+  },
+  {
+    "id": 13,
+    "title": "Fracture",
+    "album_id": 4,
+    "duration_seconds": 241,
+    "track_number": 3,
+    "explicit": false
+  },
+  {
+    "id": 14,
+    "title": "Prism",
+    "album_id": 4,
+    "duration_seconds": 248,
+    "track_number": 4,
+    "explicit": false
+  },
+  {
+    "id": 15,
+    "title": "Blue Note",
+    "album_id": 5,
+    "duration_seconds": 255,
+    "track_number": 1,
+    "explicit": false
+  },
+  {
+    "id": 16,
+    "title": "Midnight Brass",
+    "album_id": 5,
+    "duration_seconds": 262,
+    "track_number": 2,
+    "explicit": false
+  },
+  {
+    "id": 17,
+    "title": "Slow Swing",
+    "album_id": 5,
+    "duration_seconds": 269,
+    "track_number": 3,
+    "explicit": false
+  },
+  {
+    "id": 18,
+    "title": "Softwave",
+    "album_id": 6,
+    "duration_seconds": 276,
+    "track_number": 1,
+    "explicit": true
+  },
+  {
+    "id": 19,
+    "title": "Cloudline",
+    "album_id": 6,
+    "duration_seconds": 153,
+    "track_number": 2,
+    "explicit": false
+  },
+  {
+    "id": 20,
+    "title": "Haze",
+    "album_id": 6,
+    "duration_seconds": 160,
+    "track_number": 3,
+    "explicit": false
+  },
+  {
+    "id": 21,
+    "title": "Pulse",
+    "album_id": 7,
+    "duration_seconds": 167,
+    "track_number": 1,
+    "explicit": false
+  },
+  {
+    "id": 22,
+    "title": "Radio Ghosts",
+    "album_id": 8,
+    "duration_seconds": 174,
+    "track_number": 1,
+    "explicit": false
+  },
+  {
+    "id": 23,
+    "title": "Signal Lost",
+    "album_id": 8,
+    "duration_seconds": 181,
+    "track_number": 2,
+    "explicit": false
+  },
+  {
+    "id": 24,
+    "title": "Static Heart",
+    "album_id": 8,
+    "duration_seconds": 188,
+    "track_number": 3,
+    "explicit": false
+  },
+  {
+    "id": 25,
+    "title": "Frequency",
+    "album_id": 8,
+    "duration_seconds": 195,
+    "track_number": 4,
+    "explicit": false
+  },
+  {
+    "id": 26,
+    "title": "Reflections",
+    "album_id": 9,
+    "duration_seconds": 202,
+    "track_number": 1,
+    "explicit": false
+  },
+  {
+    "id": 27,
+    "title": "Northbound",
+    "album_id": 10,
+    "duration_seconds": 209,
+    "track_number": 1,
+    "explicit": true
+  }
+]

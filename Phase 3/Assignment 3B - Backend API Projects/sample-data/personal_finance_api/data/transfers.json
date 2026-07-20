@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "user_id": 1,
+    "from_account_id": 1,
+    "to_account_id": 2,
+    "amount": 500.0,
+    "occurred_on": "2026-05-05",
+    "note": "Monthly savings"
+  },
+  {
+    "id": 2,
+    "user_id": 1,
+    "from_account_id": 1,
+    "to_account_id": 2,
+    "amount": 500.0,
+    "occurred_on": "2026-06-05",
+    "note": "Monthly savings"
+  },
+  {
+    "id": 3,
+    "user_id": 2,
+    "from_account_id": 4,
+    "to_account_id": 5,
+    "amount": 300.0,
+    "occurred_on": "2026-06-12",
+    "note": "Emergency top-up"
+  },
+  {
+    "id": 4,
+    "user_id": 3,
+    "from_account_id": 6,
+    "to_account_id": 7,
+    "amount": 100.0,
+    "occurred_on": "2026-06-13",
+    "note": "Cash withdrawal"
+  }
+]

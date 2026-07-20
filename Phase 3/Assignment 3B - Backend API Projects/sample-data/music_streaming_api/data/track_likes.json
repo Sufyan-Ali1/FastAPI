@@ -1,0 +1,50 @@
+[
+  {
+    "user_id": 1,
+    "track_id": 1
+  },
+  {
+    "user_id": 1,
+    "track_id": 2
+  },
+  {
+    "user_id": 1,
+    "track_id": 12
+  },
+  {
+    "user_id": 2,
+    "track_id": 5
+  },
+  {
+    "user_id": 2,
+    "track_id": 6
+  },
+  {
+    "user_id": 2,
+    "track_id": 25
+  },
+  {
+    "user_id": 3,
+    "track_id": 18
+  },
+  {
+    "user_id": 3,
+    "track_id": 19
+  },
+  {
+    "user_id": 4,
+    "track_id": 1
+  },
+  {
+    "user_id": 4,
+    "track_id": 27
+  },
+  {
+    "user_id": 5,
+    "track_id": 21
+  },
+  {
+    "user_id": 6,
+    "track_id": 3
+  }
+]

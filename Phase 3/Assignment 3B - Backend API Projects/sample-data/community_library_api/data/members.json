@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Amara Okoye",
+    "email": "amara.okoye@example.com",
+    "membership_type": "premium",
+    "joined_at": "2026-02-01T10:00:00",
+    "unpaid_fines": 0.0
+  },
+  {
+    "id": 2,
+    "name": "Daniel Reyes",
+    "email": "daniel.reyes@example.com",
+    "membership_type": "standard",
+    "joined_at": "2026-02-03T11:30:00",
+    "unpaid_fines": 2.5
+  },
+  {
+    "id": 3,
+    "name": "Mei Lin",
+    "email": "mei.lin@example.com",
+    "membership_type": "standard",
+    "joined_at": "2026-02-10T09:15:00",
+    "unpaid_fines": 0.0
+  },
+  {
+    "id": 4,
+    "name": "Priya Nair",
+    "email": "priya.nair@example.com",
+    "membership_type": "staff",
+    "joined_at": "2026-01-15T08:00:00",
+    "unpaid_fines": 0.0
+  },
+  {
+    "id": 5,
+    "name": "Tomas Novak",
+    "email": "tomas.novak@example.com",
+    "membership_type": "premium",
+    "joined_at": "2026-03-01T14:20:00",
+    "unpaid_fines": 12.0
+  },
+  {
+    "id": 6,
+    "name": "Sara Haddad",
+    "email": "sara.haddad@example.com",
+    "membership_type": "standard",
+    "joined_at": "2026-03-12T16:45:00",
+    "unpaid_fines": 0.0
+  }
+]

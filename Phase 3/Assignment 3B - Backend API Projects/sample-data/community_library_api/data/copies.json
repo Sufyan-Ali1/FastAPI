@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "book_id": 1,
+    "barcode": "LIB-001-01",
+    "condition": "good",
+    "status": "on_loan"
+  },
+  {
+    "id": 2,
+    "book_id": 1,
+    "barcode": "LIB-001-02",
+    "condition": "good",
+    "status": "available"
+  },
+  {
+    "id": 3,
+    "book_id": 1,
+    "barcode": "LIB-001-03",
+    "condition": "worn",
+    "status": "available"
+  },
+  {
+    "id": 4,
+    "book_id": 2,
+    "barcode": "LIB-002-01",
+    "condition": "new",
+    "status": "on_loan"
+  },
+  {
+    "id": 5,
+    "book_id": 2,
+    "barcode": "LIB-002-02",
+    "condition": "good",
+    "status": "available"
+  },
+  {
+    "id": 6,
+    "book_id": 3,
+    "barcode": "LIB-003-01",
+    "condition": "good",
+    "status": "available"
+  },
+  {
+    "id": 7,
+    "book_id": 3,
+    "barcode": "LIB-003-02",
+    "condition": "worn",
+    "status": "available"
+  },
+  {
+    "id": 8,
+    "book_id": 4,
+    "barcode": "LIB-004-01",
+    "condition": "new",
+    "status": "available"
+  },
+  {
+    "id": 9,
+    "book_id": 4,
+    "barcode": "LIB-004-02",
+    "condition": "good",
+    "status": "available"
+  },
+  {
+    "id": 10,
+    "book_id": 5,
+    "barcode": "LIB-005-01",
+    "condition": "good",
+    "status": "available"
+  },
+  {
+    "id": 11,
+    "book_id": 5,
+    "barcode": "LIB-005-02",
+    "condition": "worn",
+    "status": "available"
+  },
+  {
+    "id": 12,
+    "book_id": 6,
+    "barcode": "LIB-006-01",
+    "condition": "new",
+    "status": "on_loan"
+  },
+  {
+    "id": 13,
+    "book_id": 6,
+    "barcode": "LIB-006-02",
+    "condition": "good",
+    "status": "available"
+  },
+  {
+    "id": 14,
+    "book_id": 6,
+    "barcode": "LIB-006-03",
+    "condition": "good",
+    "status": "available"
+  },
+  {
+    "id": 15,
+    "book_id": 7,
+    "barcode": "LIB-007-01",
+    "condition": "worn",
+    "status": "available"
+  },
+  {
+    "id": 16,
+    "book_id": 7,
+    "barcode": "LIB-007-02",
+    "condition": "new",
+    "status": "available"
+  },
+  {
+    "id": 17,
+    "book_id": 8,
+    "barcode": "LIB-008-01",
+    "condition": "good",
+    "status": "on_loan"
+  },
+  {
+    "id": 18,
+    "book_id": 9,
+    "barcode": "LIB-009-01",
+    "condition": "good",
+    "status": "available"
+  },
+  {
+    "id": 19,
+    "book_id": 9,
+    "barcode": "LIB-009-02",
+    "condition": "worn",
+    "status": "available"
+  },
+  {
+    "id": 20,
+    "book_id": 10,
+    "barcode": "LIB-010-01",
+    "condition": "new",
+    "status": "on_loan"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "The Left Hand of Darkness",
+    "isbn": "978-0-441-47812-5",
+    "category_id": 1,
+    "published_year": 1969,
+    "description": "A landmark work of science fiction.",
+    "is_active": true
+  },
+  {
+    "id": 2,
+    "title": "Things Fall Apart",
+    "isbn": "978-0-385-47454-2",
+    "category_id": 2,
+    "published_year": 1958,
+    "description": "A classic of modern African literature.",
+    "is_active": true
+  },
+  {
+    "id": 3,
+    "title": "The Remains of the Day",
+    "isbn": "978-0-679-73172-9",
+    "category_id": 2,
+    "published_year": 1989,
+    "description": "A poignant novel of duty and regret.",
+    "is_active": true
+  },
+  {
+    "id": 4,
+    "title": "Beloved",
+    "isbn": "978-1-4000-3341-6",
+    "category_id": 2,
+    "published_year": 1987,
+    "description": "A haunting novel of memory and slavery.",
+    "is_active": true
+  },
+  {
+    "id": 5,
+    "title": "Good Omens",
+    "isbn": "978-0-06-085398-3",
+    "category_id": 3,
+    "published_year": 1990,
+    "description": "A comedic tale of an angel and a demon.",
+    "is_active": true
+  },
+  {
+    "id": 6,
+    "title": "Sapiens",
+    "isbn": "978-0-06-231609-7",
+    "category_id": 4,
+    "published_year": 2011,
+    "description": "A brief history of humankind.",
+    "is_active": true
+  },
+  {
+    "id": 7,
+    "title": "The Handmaid's Tale",
+    "isbn": "978-0-385-49081-8",
+    "category_id": 6,
+    "published_year": 1985,
+    "description": "A dystopian classic.",
+    "is_active": true
+  },
+  {
+    "id": 8,
+    "title": "Kafka on the Shore",
+    "isbn": "978-1-4000-7927-8",
+    "category_id": 2,
+    "published_year": 2002,
+    "description": "A surreal, metaphysical journey.",
+    "is_active": true
+  },
+  {
+    "id": 9,
+    "title": "Kindred",
+    "isbn": "978-0-8070-8369-7",
+    "category_id": 1,
+    "published_year": 1979,
+    "description": "A powerful blend of history and science fiction.",
+    "is_active": true
+  },
+  {
+    "id": 10,
+    "title": "Small Gods",
+    "isbn": "978-0-06-109217-3",
+    "category_id": 3,
+    "published_year": 1992,
+    "description": "A Discworld novel about belief.",
+    "is_active": true
+  }
+]

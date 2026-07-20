@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "account_id": 1,
+    "category_id": 2,
+    "amount": 4200.0,
+    "cadence": "monthly",
+    "next_run_on": "2026-08-01"
+  },
+  {
+    "id": 2,
+    "account_id": 1,
+    "category_id": 5,
+    "amount": 1400.0,
+    "cadence": "monthly",
+    "next_run_on": "2026-08-03"
+  },
+  {
+    "id": 3,
+    "account_id": 4,
+    "category_id": 10,
+    "amount": 180.0,
+    "cadence": "monthly",
+    "next_run_on": "2026-08-07"
+  },
+  {
+    "id": 4,
+    "account_id": 6,
+    "category_id": 13,
+    "amount": 3800.0,
+    "cadence": "monthly",
+    "next_run_on": "2026-08-01"
+  }
+]
