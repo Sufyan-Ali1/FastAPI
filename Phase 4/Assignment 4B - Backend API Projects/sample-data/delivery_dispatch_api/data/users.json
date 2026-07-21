@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "username": "cust_maria",
+    "email": "maria@example.com",
+    "hashed_password": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "role": "customer",
+    "created_at": "2026-07-01T09:00:00"
+  },
+  {
+    "id": 2,
+    "username": "cust_jon",
+    "email": "jon@example.com",
+    "hashed_password": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "role": "customer",
+    "created_at": "2026-07-01T09:10:00"
+  },
+  {
+    "id": 3,
+    "username": "cour_sam",
+    "email": "sam@example.com",
+    "hashed_password": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "role": "courier",
+    "created_at": "2026-07-01T09:20:00"
+  },
+  {
+    "id": 4,
+    "username": "cour_lily",
+    "email": "lily@example.com",
+    "hashed_password": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "role": "courier",
+    "created_at": "2026-07-01T09:30:00"
+  },
+  {
+    "id": 5,
+    "username": "cour_omar",
+    "email": "omar2@example.com",
+    "hashed_password": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "role": "courier",
+    "created_at": "2026-07-01T09:40:00"
+  },
+  {
+    "id": 6,
+    "username": "ops_admin",
+    "email": "ops@example.com",
+    "hashed_password": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "role": "admin",
+    "created_at": "2026-07-01T08:00:00"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "organization_id": 1,
+    "gateway_id": 1,
+    "name": "Thermostat-101",
+    "type": "thermostat",
+    "api_key_hash": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "status": "active",
+    "last_seen_at": "2026-07-20T08:00:00"
+  },
+  {
+    "id": 2,
+    "organization_id": 1,
+    "gateway_id": 1,
+    "name": "AirQuality-101",
+    "type": "air_quality",
+    "api_key_hash": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "status": "active",
+    "last_seen_at": "2026-07-20T08:01:00"
+  },
+  {
+    "id": 3,
+    "organization_id": 1,
+    "gateway_id": 2,
+    "name": "PowerMeter-201",
+    "type": "power_meter",
+    "api_key_hash": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "status": "active",
+    "last_seen_at": "2026-07-20T08:02:00"
+  },
+  {
+    "id": 4,
+    "organization_id": 2,
+    "gateway_id": 3,
+    "name": "Thermostat-A1",
+    "type": "thermostat",
+    "api_key_hash": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "status": "inactive",
+    "last_seen_at": "2026-07-18T08:00:00"
+  }
+]

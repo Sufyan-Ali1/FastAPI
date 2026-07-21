@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "username": "seller_kate",
+    "email": "kate@example.com",
+    "hashed_password": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "role": "seller",
+    "created_at": "2026-06-01T09:00:00"
+  },
+  {
+    "id": 2,
+    "username": "seller_omar",
+    "email": "omar@example.com",
+    "hashed_password": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "role": "seller",
+    "created_at": "2026-06-01T09:10:00"
+  },
+  {
+    "id": 3,
+    "username": "bidder_ann",
+    "email": "ann@example.com",
+    "hashed_password": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "role": "bidder",
+    "created_at": "2026-06-01T09:20:00"
+  },
+  {
+    "id": 4,
+    "username": "bidder_ben",
+    "email": "ben@example.com",
+    "hashed_password": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "role": "bidder",
+    "created_at": "2026-06-01T09:30:00"
+  },
+  {
+    "id": 5,
+    "username": "bidder_cid",
+    "email": "cid@example.com",
+    "hashed_password": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "role": "bidder",
+    "created_at": "2026-06-01T09:40:00"
+  },
+  {
+    "id": 6,
+    "username": "admin_root",
+    "email": "root@example.com",
+    "hashed_password": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "role": "admin",
+    "created_at": "2026-06-01T08:00:00"
+  }
+]

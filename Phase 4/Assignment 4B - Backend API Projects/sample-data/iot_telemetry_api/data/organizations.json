@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Northgate Tower",
+    "slug": "northgate",
+    "created_at": "2026-04-01T09:00:00"
+  },
+  {
+    "id": 2,
+    "name": "Riverside Campus",
+    "slug": "riverside",
+    "created_at": "2026-04-02T09:00:00"
+  }
+]

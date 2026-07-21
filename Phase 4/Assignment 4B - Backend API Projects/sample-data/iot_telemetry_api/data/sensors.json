@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "device_id": 1,
+    "metric": "temperature",
+    "unit": "C"
+  },
+  {
+    "id": 2,
+    "device_id": 1,
+    "metric": "humidity",
+    "unit": "%"
+  },
+  {
+    "id": 3,
+    "device_id": 2,
+    "metric": "co2",
+    "unit": "ppm"
+  },
+  {
+    "id": 4,
+    "device_id": 3,
+    "metric": "power",
+    "unit": "kW"
+  },
+  {
+    "id": 5,
+    "device_id": 4,
+    "metric": "temperature",
+    "unit": "C"
+  }
+]

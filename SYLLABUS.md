@@ -85,29 +85,29 @@
 
 ## 🔵 PHASE 3 — DATABASE INTEGRATION
 
-- [ ] **20. Database Concepts Refresher**
+- [x] **20. Database Concepts Refresher**
   - SQL vs NoSQL
   - Connection pooling
   - ORM concept
-- [ ] **21. SQLAlchemy 2.0 (Sync)**
+- [x] **21. SQLAlchemy 2.0 (Sync)**
   - Engine, Session, Base
   - Models (table definitions)
   - Relationships (One-to-Many, Many-to-Many)
-- [ ] **22. SQLAlchemy with FastAPI**
+- [x] **22. SQLAlchemy with FastAPI**
   - DB session as dependency
   - CRUD operations (Create / Read / Update / Delete)
-- [ ] **23. Pydantic + SQLAlchemy together**
+- [x] **23. Pydantic + SQLAlchemy together**
   - ORM mode / `from_attributes=True`
   - Schema vs Model separation
-- [ ] **24. Alembic (Database Migrations)**
+- [x] **24. Alembic (Database Migrations)**
   - Init, autogenerate, upgrade, downgrade
-- [ ] **25. Async SQLAlchemy**
+- [x] **25. Async SQLAlchemy**
   - `AsyncSession`, `async_engine`
   - When to use sync vs async DB
-- [ ] **26. SQLModel (alternative)**
+- [x] **26. SQLModel (alternative)**
   - Created by FastAPI's author
   - Pydantic + SQLAlchemy combined
-- [ ] **27. NoSQL Integration (Optional)**
+- [x] **27. NoSQL Integration (Optional)**
   - MongoDB with Motor / Beanie
   - Redis for caching
 
@@ -115,60 +115,60 @@
 
 ## 🟣 PHASE 4 — ADVANCED FEATURES
 
-- [ ] **28. Async vs Sync Deep Dive**
+- [x] **28. Async vs Sync Deep Dive**
   - `async def` vs `def`
   - Event loop basics
   - When NOT to use async
   - `run_in_threadpool`
-- [ ] **29. Authentication & Authorization**
+- [x] **29. Authentication & Authorization**
   - Password hashing (`passlib`, `bcrypt`)
   - OAuth2 with Password Flow
   - JWT tokens (creation, validation, refresh)
   - `Depends(get_current_user)` pattern
   - Role-based access control (RBAC)
   - API keys
-- [ ] **30. Background Tasks**
+- [x] **30. Background Tasks**
   - `BackgroundTasks` (built-in)
   - When to use Celery / RQ / ARQ instead
-- [ ] **31. WebSockets**
+- [x] **31. WebSockets**
   - Real-time communication
   - Connection manager pattern
   - Broadcasting
-- [ ] **32. Server-Sent Events (SSE) / Streaming Responses**
+- [x] **32. Server-Sent Events (SSE) / Streaming Responses**
   - `StreamingResponse`
   - LLM streaming use case
-- [ ] **33. CORS (Cross-Origin Resource Sharing)**
+- [x] **33. CORS (Cross-Origin Resource Sharing)**
   - Why it exists
   - Configuration for frontend integration
-- [ ] **34. Rate Limiting**
+- [x] **34. Rate Limiting**
   - `slowapi` library
   - Per-IP, per-user
-- [ ] **35. Caching**
+- [x] **35. Caching**
   - In-memory caching
   - Redis caching
   - `fastapi-cache2`
-- [ ] **36. Pagination**
+- [x] **36. Pagination**
   - Limit/offset
   - Cursor-based pagination
-- [ ] **37. Filtering, Sorting, Searching**
-- [ ] **38. Internationalization (i18n)** *(optional)*
-- [ ] **39. GraphQL with FastAPI** *(optional, via Strawberry)*
+- [x] **37. Filtering, Sorting, Searching**
+- [x] **38. Internationalization (i18n)** *(optional)*
+- [x] **39. GraphQL with FastAPI** *(optional, via Strawberry)*
 
 ---
 
 ## 🔴 PHASE 5 — TESTING & QUALITY
 
-- [ ] **40. Testing Fundamentals**
+- [x] **40. Testing Fundamentals**
   - `TestClient` (sync)
   - `httpx.AsyncClient` (async)
   - `pytest` basics
-- [ ] **41. Testing Endpoints**
+- [x] **41. Testing Endpoints**
   - GET, POST, with auth
   - Mocking dependencies (`app.dependency_overrides`)
-- [ ] **42. Database Testing**
+- [x] **42. Database Testing**
   - Test database setup
   - Fixtures, transactions, rollbacks
-- [ ] **43. Coverage & CI**
+- [x] **43. Coverage & CI**
   - `pytest-cov`
   - GitHub Actions basics
 
@@ -176,7 +176,7 @@
 
 ## 🟠 PHASE 6 — PRODUCTION & DEPLOYMENT
 
-- [ ] **44. Project Structure (Production)**
+- [x] **44. Project Structure (Production)**
   ```
   app/
     api/          # routers
@@ -188,11 +188,11 @@
     tests/
     main.py
   ```
-- [ ] **45. Configuration Management**
+- [x] **45. Configuration Management**
   - `pydantic-settings`
   - `.env` files
   - Multiple environments (dev/staging/prod)
-- [ ] **46. Logging**
+- [x] **46. Logging**
   - Structured logging (`structlog`, `loguru`)
   - Request ID tracing
 - [ ] **47. Security Best Practices**

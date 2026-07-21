@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "user_id": 3,
+    "vehicle_type": "bike",
+    "status": "available",
+    "current_lat": 40.7128,
+    "current_lng": -74.006,
+    "rating_avg": 4.8,
+    "updated_at": "2026-07-20T08:00:00"
+  },
+  {
+    "id": 2,
+    "user_id": 4,
+    "vehicle_type": "car",
+    "status": "on_trip",
+    "current_lat": 40.7228,
+    "current_lng": -74.011,
+    "rating_avg": 4.6,
+    "updated_at": "2026-07-20T08:05:00"
+  },
+  {
+    "id": 3,
+    "user_id": 5,
+    "vehicle_type": "scooter",
+    "status": "offline",
+    "current_lat": 40.705,
+    "current_lng": -74.009,
+    "rating_avg": 4.9,
+    "updated_at": "2026-07-19T20:00:00"
+  }
+]

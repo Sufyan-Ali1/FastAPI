@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "username": "amaya",
+    "email": "amaya@example.com",
+    "hashed_password": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "display_name": "Amaya Osei",
+    "created_at": "2026-05-01T09:00:00"
+  },
+  {
+    "id": 2,
+    "username": "bruno",
+    "email": "bruno@example.com",
+    "hashed_password": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "display_name": "Bruno Costa",
+    "created_at": "2026-05-01T09:00:00"
+  },
+  {
+    "id": 3,
+    "username": "chen",
+    "email": "chen@example.com",
+    "hashed_password": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "display_name": "Chen Li",
+    "created_at": "2026-05-01T09:00:00"
+  },
+  {
+    "id": 4,
+    "username": "dara",
+    "email": "dara@example.com",
+    "hashed_password": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "display_name": "Dara Malik",
+    "created_at": "2026-05-01T09:00:00"
+  },
+  {
+    "id": 5,
+    "username": "eva",
+    "email": "eva@example.com",
+    "hashed_password": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "display_name": "Eva Novak",
+    "created_at": "2026-05-01T09:00:00"
+  },
+  {
+    "id": 6,
+    "username": "finn",
+    "email": "finn@example.com",
+    "hashed_password": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "display_name": "Finn Walsh",
+    "created_at": "2026-05-01T09:00:00"
+  }
+]

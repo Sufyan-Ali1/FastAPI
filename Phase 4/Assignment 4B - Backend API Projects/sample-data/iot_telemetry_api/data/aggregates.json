@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "sensor_id": 1,
+    "period": "hourly",
+    "bucket_start": "2026-07-20T00:00:00",
+    "min_value": 20.5,
+    "max_value": 22.5,
+    "avg_value": 21.5,
+    "count": 6
+  },
+  {
+    "id": 2,
+    "sensor_id": 3,
+    "period": "daily",
+    "bucket_start": "2026-07-20T00:00:00",
+    "min_value": 599.0,
+    "max_value": 601.0,
+    "avg_value": 600.0,
+    "count": 6
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "customer_id": 1,
+    "merchant_id": 1,
+    "pickup_address": "12 Main St",
+    "dropoff_address": "500 Park Ave",
+    "status": "delivered",
+    "total_amount": 24.5,
+    "assigned_courier_id": 2,
+    "created_at": "2026-07-19T18:00:00"
+  },
+  {
+    "id": 2,
+    "customer_id": 2,
+    "merchant_id": 2,
+    "pickup_address": "88 Oak Ave",
+    "dropoff_address": "220 Elm St",
+    "status": "assigned",
+    "total_amount": 41.0,
+    "assigned_courier_id": 2,
+    "created_at": "2026-07-20T08:00:00"
+  },
+  {
+    "id": 3,
+    "customer_id": 1,
+    "merchant_id": 1,
+    "pickup_address": "12 Main St",
+    "dropoff_address": "77 Pine St",
+    "status": "dispatching",
+    "total_amount": 18.75,
+    "assigned_courier_id": null,
+    "created_at": "2026-07-20T08:10:00"
+  }
+]

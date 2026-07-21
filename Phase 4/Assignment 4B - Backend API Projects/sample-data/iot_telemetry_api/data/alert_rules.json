@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "organization_id": 1,
+    "sensor_id": 3,
+    "metric": "co2",
+    "operator": "gt",
+    "threshold": 800.0,
+    "severity": "warning",
+    "is_active": true
+  },
+  {
+    "id": 2,
+    "organization_id": 1,
+    "sensor_id": null,
+    "metric": "temperature",
+    "operator": "gt",
+    "threshold": 28.0,
+    "severity": "critical",
+    "is_active": true
+  }
+]

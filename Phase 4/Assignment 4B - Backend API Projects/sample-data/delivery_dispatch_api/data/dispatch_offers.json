@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "order_id": 2,
+    "courier_id": 2,
+    "status": "accepted",
+    "offered_at": "2026-07-20T08:01:00",
+    "expires_at": "2026-07-20T08:01:30"
+  },
+  {
+    "id": 2,
+    "order_id": 3,
+    "courier_id": 1,
+    "status": "offered",
+    "offered_at": "2026-07-20T08:10:05",
+    "expires_at": "2026-07-20T08:10:35"
+  },
+  {
+    "id": 3,
+    "order_id": 3,
+    "courier_id": 3,
+    "status": "expired",
+    "offered_at": "2026-07-20T08:09:00",
+    "expires_at": "2026-07-20T08:09:30"
+  }
+]

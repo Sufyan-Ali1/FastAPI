@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Corner Bistro",
+    "address": "12 Main St",
+    "location_lat": 40.713,
+    "location_lng": -74.0055
+  },
+  {
+    "id": 2,
+    "name": "Green Grocer",
+    "address": "88 Oak Ave",
+    "location_lat": 40.72,
+    "location_lng": -74.01
+  }
+]

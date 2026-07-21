@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "organization_id": 1,
+    "name": "NG-GW-1",
+    "location": "Floor 1",
+    "status": "online"
+  },
+  {
+    "id": 2,
+    "organization_id": 1,
+    "name": "NG-GW-2",
+    "location": "Floor 2",
+    "status": "online"
+  },
+  {
+    "id": 3,
+    "organization_id": 2,
+    "name": "RS-GW-1",
+    "location": "Block A",
+    "status": "offline"
+  }
+]

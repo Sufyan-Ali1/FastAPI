@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "message_id": 1,
+    "user_id": 2,
+    "emoji": "wave"
+  },
+  {
+    "id": 2,
+    "message_id": 1,
+    "user_id": 4,
+    "emoji": "tada"
+  },
+  {
+    "id": 3,
+    "message_id": 4,
+    "user_id": 2,
+    "emoji": "thumbsup"
+  }
+]

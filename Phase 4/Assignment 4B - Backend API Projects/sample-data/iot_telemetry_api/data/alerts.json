@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "rule_id": 1,
+    "sensor_id": 3,
+    "value": 820.0,
+    "triggered_at": "2026-07-19T15:00:00",
+    "status": "acknowledged",
+    "acknowledged_by": 2
+  },
+  {
+    "id": 2,
+    "rule_id": 1,
+    "sensor_id": 3,
+    "value": 810.0,
+    "triggered_at": "2026-07-20T05:00:00",
+    "status": "open",
+    "acknowledged_by": null
+  }
+]

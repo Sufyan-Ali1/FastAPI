@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "workspace_id": 1,
+    "email": "grace@example.com",
+    "token": "inv-abc123",
+    "role": "member",
+    "invited_by": 1,
+    "status": "pending",
+    "expires_at": "2026-05-16T10:00:00"
+  },
+  {
+    "id": 2,
+    "workspace_id": 2,
+    "email": "hugo@example.com",
+    "token": "inv-def456",
+    "role": "member",
+    "invited_by": 3,
+    "status": "accepted",
+    "expires_at": "2026-05-17T11:00:00"
+  }
+]

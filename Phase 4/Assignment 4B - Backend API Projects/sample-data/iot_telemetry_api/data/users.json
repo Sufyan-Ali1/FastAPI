@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "organization_id": 1,
+    "username": "ng_admin",
+    "email": "admin@northgate.example",
+    "hashed_password": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "role": "org_admin",
+    "created_at": "2026-04-01T09:05:00"
+  },
+  {
+    "id": 2,
+    "organization_id": 1,
+    "username": "ng_op",
+    "email": "op@northgate.example",
+    "hashed_password": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "role": "operator",
+    "created_at": "2026-04-01T09:10:00"
+  },
+  {
+    "id": 3,
+    "organization_id": 1,
+    "username": "ng_view",
+    "email": "view@northgate.example",
+    "hashed_password": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "role": "viewer",
+    "created_at": "2026-04-01T09:15:00"
+  },
+  {
+    "id": 4,
+    "organization_id": 2,
+    "username": "rs_admin",
+    "email": "admin@riverside.example",
+    "hashed_password": "$2b$12$dcIVWiGPdM5wIdjb/H9nX..mst0NrFkhYE3TCrcDMRLDvxd5qh0Vy",
+    "role": "org_admin",
+    "created_at": "2026-04-02T09:05:00"
+  }
+]
