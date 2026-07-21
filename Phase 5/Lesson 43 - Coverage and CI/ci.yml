@@ -1,0 +1,39 @@
+# Lesson 43 - Example GitHub Actions CI workflow.
+#
+# In a REAL repository this file lives at:
+#     .github/workflows/ci.yml
+# GitHub only runs workflows found under .github/workflows/ at the repo root, so
+# this copy (inside the lesson folder) is an illustrative example, not an active
+# workflow. Copy it to the right place to enable CI for a project.
+
+name: CI
+
+# WHEN this workflow runs: on every push and on every pull request.
+on: [push, pull_request]
+
+jobs:
+  test:                          # a single job named "test"
+    runs-on: ubuntu-latest       # run on a fresh Ubuntu machine
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12"]   # test on two Python versions in parallel
+
+    steps:
+      # 1. Check out the repository onto the runner.
+      - uses: actions/checkout@v4
+
+      # 2. Install the requested Python version.
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      # 3. Install dependencies (pin these in a real requirements.txt).
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install fastapi uvicorn httpx pytest pytest-cov
+
+      # 4. Run the tests with coverage, failing the build under 80%.
+      - name: Run tests with coverage
+        run: pytest --cov=. --cov-report=term-missing --cov-fail-under=80

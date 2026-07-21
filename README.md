@@ -77,16 +77,39 @@ Claude/
 - [x] Lesson 19 — Static Files & Templates (Jinja2)
 
 ### 🔵 Phase 3 — Database Integration
-*Coming soon…*
+- [x] Lesson 20 — Database Concepts Refresher (SQL vs NoSQL, connections, pooling, ORM)
+- [x] Lesson 21 — SQLAlchemy 2.0 Sync (Engine, Base, Session, models, relationships)
+- [x] Lesson 22 — SQLAlchemy with FastAPI (get_db dependency, full CRUD endpoints)
+- [x] Lesson 23 — Pydantic + SQLAlchemy Together (from_attributes, response_model, schema separation)
+- [x] Lesson 24 — Alembic Database Migrations (init, autogenerate, upgrade, downgrade)
+- [x] Lesson 25 — Async SQLAlchemy (async_engine, AsyncSession, sync vs async)
+- [x] Lesson 26 — SQLModel (SQLAlchemy + Pydantic fused; table=True vs schemas)
+- [x] Lesson 27 — NoSQL Integration (MongoDB via Motor, Redis cache-aside)
 
 ### 🟣 Phase 4 — Advanced Features
-*Coming soon…*
+- [x] Lesson 28 — Async vs Sync Deep Dive (event loop, `run_in_threadpool`, when not to use async)
+- [x] Lesson 29 — Authentication & Authorization (bcrypt, OAuth2 + JWT, get_current_user, RBAC, API keys)
+- [x] Lesson 30 — Background Tasks (BackgroundTasks, when to use Celery/RQ/ARQ)
+- [x] Lesson 31 — WebSockets (real-time, connection manager, broadcasting)
+- [x] Lesson 32 — Server-Sent Events & Streaming (StreamingResponse, SSE, LLM token streaming)
+- [x] Lesson 33 — CORS (Same-Origin Policy, CORSMiddleware, preflight, credentials)
+- [x] Lesson 34 — Rate Limiting (slowapi, per-IP/per-user, 429 + Retry-After)
+- [x] Lesson 35 — Caching (in-memory/lru_cache, Redis, fastapi-cache2, TTL & invalidation)
+- [x] Lesson 36 — Pagination (limit/offset vs cursor/keyset, drift, opaque cursors)
+- [x] Lesson 37 — Filtering, Sorting, Searching (dynamic queries, ilike, whitelisted sort)
+- [x] Lesson 38 — Internationalization i18n *(optional)* (Accept-Language, catalogs, localized errors)
+- [x] Lesson 39 — GraphQL with FastAPI *(optional)* (Strawberry, queries/mutations, vs REST)
 
 ### 🔴 Phase 5 — Testing & Quality
-*Coming soon…*
+- [x] Lesson 40 — Testing Fundamentals (pytest, TestClient, httpx.AsyncClient)
+- [x] Lesson 41 — Testing Endpoints (auth, dependency_overrides, mocking, fixtures)
+- [x] Lesson 42 — Database Testing (test DB, StaticPool, per-test isolation, seeding)
+- [x] Lesson 43 — Coverage & CI (pytest-cov, term-missing, GitHub Actions workflow)
 
 ### 🟠 Phase 6 — Production & Deployment
-*Coming soon…*
+- [x] Lesson 44 — Project Structure Production (layered app/, services layer, thin main.py)
+- [x] Lesson 45 — Configuration Management (pydantic-settings, .env files, dev/staging/prod)
+- [x] Lesson 46 — Logging (structured JSON logs, request-ID tracing, log levels)
 
 > 📍 See [`SYLLABUS.md`](./SYLLABUS.md) for the **complete 60+ topic roadmap**.
 
