@@ -1,0 +1,29 @@
+# fly.toml - Fly.io app configuration. Fly runs your CONTAINER (the Lesson 49
+# Dockerfile) close to users. `fly deploy` reads this file.
+
+app = "fastapi-app"
+primary_region = "iad"
+
+[build]
+  # Uses the Dockerfile in the repo (Lesson 49).
+  dockerfile = "Dockerfile"
+
+[env]
+  ENVIRONMENT = "production"
+  PORT = "8000"
+
+[http_service]
+  internal_port = 8000
+  force_https = true            # redirect HTTP -> HTTPS
+  auto_stop_machines = true     # scale to zero when idle
+  auto_start_machines = true    # start on incoming request
+  min_machines_running = 0
+
+  [[http_service.checks]]
+    method = "GET"
+    path = "/health"            # Fly health-checks this endpoint
+    interval = "10s"
+    timeout = "3s"
+
+# Secrets (SECRET_KEY, DATABASE_URL) are set out-of-band, NOT in this file:
+#     fly secrets set SECRET_KEY=... DATABASE_URL=...

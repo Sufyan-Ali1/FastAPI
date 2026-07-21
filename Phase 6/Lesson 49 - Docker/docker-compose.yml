@@ -1,0 +1,42 @@
+# Lesson 49 - docker-compose: run the app + PostgreSQL + Redis together.
+#
+# Start it all with:  docker compose up --build
+# The app reaches the database and cache by their SERVICE NAMES (db, redis),
+# not localhost - that's how containers on a compose network find each other.
+
+services:
+  app:
+    build: .                         # build the image from the Dockerfile
+    ports:
+      - "8000:8000"                  # host:container
+    environment:
+      # Note the hostnames are the service names below, not localhost:
+      DATABASE_URL: postgresql+psycopg://app:secret@db:5432/app
+      REDIS_URL: redis://redis:6379/0
+    depends_on:
+      - db
+      - redis
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: secret       # in real life: from a secret, not inline
+      POSTGRES_DB: app
+    volumes:
+      - pgdata:/var/lib/postgresql/data   # persist data across restarts
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: redis:7
+    ports:
+      - "6379:6379"
+
+volumes:
+  pgdata:                             # named volume so the DB survives `down`

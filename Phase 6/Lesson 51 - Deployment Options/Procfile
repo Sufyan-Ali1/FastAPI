@@ -1,0 +1,4 @@
+# Procfile - tells PaaS platforms (Railway, Render, Heroku-style) how to start
+# the app. The `web` process runs the production server (Lesson 50). $PORT is
+# injected by the platform - bind to it, not a hardcoded port.
+web: uvicorn main:app --host 0.0.0.0 --port $PORT

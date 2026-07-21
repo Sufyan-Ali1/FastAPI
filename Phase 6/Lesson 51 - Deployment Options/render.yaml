@@ -1,0 +1,26 @@
+# render.yaml - Render infrastructure-as-code: a web service + a managed
+# Postgres, defined in one file committed to the repo. `render.com` reads this.
+
+services:
+  - type: web
+    name: fastapi-app
+    runtime: python
+    plan: starter
+    buildCommand: "pip install -r requirements.txt"
+    # Migrations run at release (Lesson 24), then the production server starts.
+    preDeployCommand: "alembic upgrade head"
+    startCommand: "uvicorn main:app --host 0.0.0.0 --port $PORT"
+    healthCheckPath: /health           # Render polls this before routing traffic
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: SECRET_KEY
+        generateValue: true            # Render generates a strong secret
+      - key: DATABASE_URL
+        fromDatabase:                  # injected from the managed database below
+          name: fastapi-db
+          property: connectionString
+
+databases:
+  - name: fastapi-db
+    plan: starter

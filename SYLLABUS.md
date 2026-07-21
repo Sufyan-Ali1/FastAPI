@@ -195,42 +195,42 @@
 - [x] **46. Logging**
   - Structured logging (`structlog`, `loguru`)
   - Request ID tracing
-- [ ] **47. Security Best Practices**
+- [x] **47. Security Best Practices**
   - HTTPS only
   - Secure headers
   - Input sanitization
   - SQL injection prevention
   - Secret management
-- [ ] **48. Performance Optimization**
+- [x] **48. Performance Optimization**
   - Async I/O usage
   - Connection pooling
   - Profiling (`py-spy`)
   - N+1 query problem
-- [ ] **49. Docker**
+- [x] **49. Docker**
   - Dockerfile for FastAPI
   - `docker-compose` (app + DB + Redis)
   - Multi-stage builds
-- [ ] **50. Production Server**
+- [x] **50. Production Server**
   - Uvicorn vs Gunicorn vs Uvicorn workers
   - `gunicorn -k uvicorn.workers.UvicornWorker`
   - Reverse proxy (Nginx)
-- [ ] **51. Deployment Options**
+- [x] **51. Deployment Options**
   - VPS (Linux server basics)
   - Render / Railway / Fly.io (easy)
   - AWS (EC2, ECS, Lambda)
   - GCP Cloud Run
   - Kubernetes basics (optional)
-- [ ] **52. CI/CD Pipeline**
+- [x] **52. CI/CD Pipeline**
   - Auto-test → build → deploy
   - GitHub Actions example
-- [ ] **53. Monitoring & Observability**
+- [x] **53. Monitoring & Observability**
   - Health check endpoints
   - Prometheus + Grafana
   - Sentry for error tracking
   - OpenTelemetry tracing
-- [ ] **54. API Versioning**
+- [x] **54. API Versioning**
   - `/api/v1`, `/api/v2`
-- [ ] **55. API Documentation Customization**
+- [x] **55. API Documentation Customization**
   - Custom OpenAPI schema
   - Hiding endpoints
   - Adding examples

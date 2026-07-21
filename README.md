@@ -110,6 +110,15 @@ Claude/
 - [x] Lesson 44 — Project Structure Production (layered app/, services layer, thin main.py)
 - [x] Lesson 45 — Configuration Management (pydantic-settings, .env files, dev/staging/prod)
 - [x] Lesson 46 — Logging (structured JSON logs, request-ID tracing, log levels)
+- [x] Lesson 47 — Security Best Practices (HTTPS/HSTS, secure headers, SQL injection, secrets)
+- [x] Lesson 48 — Performance Optimization (N+1 fix, connection pooling, async I/O, profiling)
+- [x] Lesson 49 — Docker (multi-stage Dockerfile, docker-compose app+DB+Redis)
+- [x] Lesson 50 — Production Server (uvicorn/gunicorn workers, Nginx reverse proxy)
+- [x] Lesson 51 — Deployment Options (VPS, PaaS, Cloud Run/AWS, Kubernetes, choosing)
+- [x] Lesson 52 — CI/CD Pipeline (test→build→deploy, GitHub Actions, secrets, gating)
+- [x] Lesson 53 — Monitoring & Observability (health checks, Prometheus/Grafana, Sentry, OTel)
+- [x] Lesson 54 — API Versioning (/api/v1 vs /api/v2, breaking changes, deprecation)
+- [x] Lesson 55 — API Documentation Customization (OpenAPI metadata, examples, hiding, custom schema)
 
 > 📍 See [`SYLLABUS.md`](./SYLLABUS.md) for the **complete 60+ topic roadmap**.
 

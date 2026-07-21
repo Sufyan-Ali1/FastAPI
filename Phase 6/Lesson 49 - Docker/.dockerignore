@@ -1,0 +1,14 @@
+# Keep junk and secrets OUT of the image (smaller builds, no leaks).
+__pycache__/
+*.pyc
+.venv/
+venv/
+.git/
+.gitignore
+.env
+*.db
+.pytest_cache/
+.mypy_cache/
+*.md
+Dockerfile
+docker-compose.yml

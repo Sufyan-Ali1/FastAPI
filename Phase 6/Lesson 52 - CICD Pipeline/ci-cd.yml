@@ -1,0 +1,73 @@
+# Lesson 52 - a full CI/CD pipeline: test -> build -> deploy.
+#
+# In a REAL repo this lives at .github/workflows/ci-cd.yml (GitHub only runs
+# workflows found there at the repo root). This copy in the lesson folder is an
+# illustrative, validated example.
+#
+# Flow:
+#   - Pull requests           -> run the `test` job only.
+#   - Pushes to `main`        -> test -> build image -> deploy (each gated on the last).
+
+name: CI/CD
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  # === STAGE 1: TEST (runs on every push AND every PR) =====================
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run tests with coverage
+        run: pytest --cov=. --cov-report=term-missing
+
+  # === STAGE 2: BUILD image (only on main, only if tests passed) ===========
+  build:
+    needs: test                              # gate: only after `test` succeeds
+    if: github.ref == 'refs/heads/main'      # gate: only on the main branch
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write                        # allow pushing to the registry
+    steps:
+      - uses: actions/checkout@v4
+      - name: Log in to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}   # a secret, never hardcoded
+      - name: Build and push image
+        uses: docker/build-push-action@v6
+        with:
+          push: true
+          # Tag with the commit SHA so every image traces to an exact commit
+          # (and rollback = deploy the previous tag).
+          tags: ghcr.io/${{ github.repository }}:${{ github.sha }}
+
+  # === STAGE 3: DEPLOY (only on main, only if build succeeded) =============
+  deploy:
+    needs: build                             # gate: only after `build` succeeds
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment: production                  # protected env: can require approval
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run database migrations
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: echo "alembic upgrade head   # run migrations against prod DB"
+      - name: Deploy the new image
+        env:
+          DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
+        run: |
+          echo "Trigger the platform deploy (Fly/Cloud Run/Render/...)"
+          echo "Platform health-checks /health, shifts traffic, rolls back on failure."
