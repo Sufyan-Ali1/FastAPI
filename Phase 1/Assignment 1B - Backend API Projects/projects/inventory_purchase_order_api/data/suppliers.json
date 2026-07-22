@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "9302537a-b984-4ee1-85ac-3b7906b509df",
     "name": "TechSource Distributors",
     "contact_email": "sales@techsource.example",
     "phone": "+92-300-7001001",
@@ -8,7 +8,7 @@
     "active": true
   },
   {
-    "id": 2,
+    "id": "9e83e4de-fc0b-46f5-852c-ad757297b3fd",
     "name": "Prime Gadgets Supply",
     "contact_email": "orders@primegadgets.example",
     "phone": "+92-300-7001002",
@@ -16,7 +16,7 @@
     "active": true
   },
   {
-    "id": 3,
+    "id": "a323f43c-ab13-4ad5-91f8-e9718428d15c",
     "name": "Legacy Hardware Traders",
     "contact_email": "contact@legacyhardware.example",
     "phone": "+92-300-7001003",
