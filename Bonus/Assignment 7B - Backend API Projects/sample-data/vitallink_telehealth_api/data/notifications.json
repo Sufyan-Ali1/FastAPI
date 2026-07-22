@@ -1,0 +1,9 @@
+[
+  {
+    "id": "vntf_01",
+    "user_id": "usr_02",
+    "type": "appointment.reminder",
+    "is_read": false,
+    "created_at": "2026-07-21T09:00:00Z"
+  }
+]

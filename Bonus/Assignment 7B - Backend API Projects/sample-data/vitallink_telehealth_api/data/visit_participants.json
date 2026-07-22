@@ -1,0 +1,14 @@
+[
+  {
+    "visit_id": "vis_01",
+    "user_id": "usr_01",
+    "role": "patient",
+    "joined_at": "2026-07-21T15:00:30Z"
+  },
+  {
+    "visit_id": "vis_01",
+    "user_id": "usr_03",
+    "role": "provider",
+    "joined_at": "2026-07-21T15:01:00Z"
+  }
+]

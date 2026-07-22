@@ -1,0 +1,30 @@
+[
+  {
+    "id": "key_01",
+    "merchant_id": "mer_01",
+    "name": "server",
+    "key_hash": "$2b$12$lhiqqoLzt2kMnPlVkSC.eOI.QIuc3s8I7Mls4P.M/H74UVEbhlbRu",
+    "prefix": "sk_live_a1b2",
+    "scopes": [
+      "payments:read",
+      "payments:write",
+      "payouts:write",
+      "webhooks:manage"
+    ],
+    "last_used_at": "2026-07-19T12:00:00Z",
+    "revoked_at": null
+  },
+  {
+    "id": "key_02",
+    "merchant_id": "mer_02",
+    "name": "server",
+    "key_hash": "$2b$12$lhiqqoLzt2kMnPlVkSC.eOI.QIuc3s8I7Mls4P.M/H74UVEbhlbRu",
+    "prefix": "sk_live_c3d4",
+    "scopes": [
+      "payments:read",
+      "payments:write"
+    ],
+    "last_used_at": "2026-07-18T08:15:00Z",
+    "revoked_at": null
+  }
+]

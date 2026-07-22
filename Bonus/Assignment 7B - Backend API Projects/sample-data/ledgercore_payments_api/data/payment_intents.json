@@ -1,0 +1,54 @@
+[
+  {
+    "id": "pi_01",
+    "merchant_id": "mer_01",
+    "amount": 4200,
+    "currency": "USD",
+    "status": "captured",
+    "capture_method": "automatic",
+    "payment_method_id": "pm_01",
+    "metadata": {
+      "order": "A-1001"
+    },
+    "created_at": "2026-07-10T14:00:00Z"
+  },
+  {
+    "id": "pi_02",
+    "merchant_id": "mer_01",
+    "amount": 8900,
+    "currency": "USD",
+    "status": "captured",
+    "capture_method": "manual",
+    "payment_method_id": "pm_01",
+    "metadata": {
+      "order": "A-1002"
+    },
+    "created_at": "2026-07-12T16:20:00Z"
+  },
+  {
+    "id": "pi_03",
+    "merchant_id": "mer_02",
+    "amount": 2500,
+    "currency": "USD",
+    "status": "authorized",
+    "capture_method": "manual",
+    "payment_method_id": "pm_02",
+    "metadata": {
+      "order": "B-2001"
+    },
+    "created_at": "2026-07-15T11:05:00Z"
+  },
+  {
+    "id": "pi_04",
+    "merchant_id": "mer_02",
+    "amount": 1500,
+    "currency": "USD",
+    "status": "failed",
+    "capture_method": "automatic",
+    "payment_method_id": "pm_02",
+    "metadata": {
+      "order": "B-2002"
+    },
+    "created_at": "2026-07-16T09:45:00Z"
+  }
+]

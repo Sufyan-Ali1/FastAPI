@@ -1,0 +1,9 @@
+[
+  {
+    "id": "adm_01",
+    "email": "admin@fulfillment.example.com",
+    "hashed_password": "$2b$12$lhiqqoLzt2kMnPlVkSC.eOI.QIuc3s8I7Mls4P.M/H74UVEbhlbRu",
+    "role": "admin",
+    "created_at": "2026-01-01T00:00:00Z"
+  }
+]

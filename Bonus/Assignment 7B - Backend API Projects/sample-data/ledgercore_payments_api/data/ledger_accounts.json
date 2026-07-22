@@ -1,0 +1,32 @@
+[
+  {
+    "id": "acc_fees",
+    "merchant_id": null,
+    "type": "platform_fees",
+    "currency": "USD"
+  },
+  {
+    "id": "acc_bal_m1",
+    "merchant_id": "mer_01",
+    "type": "merchant_balance",
+    "currency": "USD"
+  },
+  {
+    "id": "acc_pending_m1",
+    "merchant_id": "mer_01",
+    "type": "pending",
+    "currency": "USD"
+  },
+  {
+    "id": "acc_payout_m1",
+    "merchant_id": "mer_01",
+    "type": "payouts",
+    "currency": "USD"
+  },
+  {
+    "id": "acc_bal_m2",
+    "merchant_id": "mer_02",
+    "type": "merchant_balance",
+    "currency": "USD"
+  }
+]

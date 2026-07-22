@@ -1,0 +1,58 @@
+[
+  {
+    "id": "le_01",
+    "transaction_id": "ltx_01",
+    "account_id": "acc_pending_m1",
+    "direction": "debit",
+    "amount": 4200
+  },
+  {
+    "id": "le_02",
+    "transaction_id": "ltx_01",
+    "account_id": "acc_bal_m1",
+    "direction": "credit",
+    "amount": 4048
+  },
+  {
+    "id": "le_03",
+    "transaction_id": "ltx_01",
+    "account_id": "acc_fees",
+    "direction": "credit",
+    "amount": 152
+  },
+  {
+    "id": "le_04",
+    "transaction_id": "ltx_02",
+    "account_id": "acc_pending_m1",
+    "direction": "debit",
+    "amount": 8900
+  },
+  {
+    "id": "le_05",
+    "transaction_id": "ltx_02",
+    "account_id": "acc_bal_m1",
+    "direction": "credit",
+    "amount": 8612
+  },
+  {
+    "id": "le_06",
+    "transaction_id": "ltx_02",
+    "account_id": "acc_fees",
+    "direction": "credit",
+    "amount": 288
+  },
+  {
+    "id": "le_07",
+    "transaction_id": "ltx_03",
+    "account_id": "acc_bal_m1",
+    "direction": "debit",
+    "amount": 1000
+  },
+  {
+    "id": "le_08",
+    "transaction_id": "ltx_03",
+    "account_id": "acc_pending_m1",
+    "direction": "credit",
+    "amount": 1000
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "pm_01",
+    "merchant_id": "mer_01",
+    "token": "tok_visa_4242",
+    "brand": "visa",
+    "last4": "4242",
+    "created_at": "2026-07-01T00:00:00Z"
+  },
+  {
+    "id": "pm_02",
+    "merchant_id": "mer_02",
+    "token": "tok_mc_5454",
+    "brand": "mastercard",
+    "last4": "5454",
+    "created_at": "2026-07-02T00:00:00Z"
+  }
+]

@@ -120,6 +120,14 @@ Claude/
 - [x] Lesson 54 — API Versioning (/api/v1 vs /api/v2, breaking changes, deprecation)
 - [x] Lesson 55 — API Documentation Customization (OpenAPI metadata, examples, hiding, custom schema)
 
+### 🎯 Bonus / Expert Topics
+- [x] Lesson 56 — Microservices Architecture (service boundaries, inter-service HTTP, gateway, DB-per-service)
+- [x] Lesson 57 — Event-Driven Systems (pub/sub, message brokers, RabbitMQ vs Kafka, idempotency)
+- [x] Lesson 58 — gRPC alongside FastAPI (Protocol Buffers, unary/streaming, REST edge + gRPC core)
+- [x] Lesson 59 — LLM/AI API Patterns (token streaming, token counting, per-user token budgets)
+- [x] Lesson 60 — Final Capstone Project — **Orbit**, a multi-tenant real-time AI-assisted work-management SaaS (design brief)
+- [x] Capstone Project 2 — **Marquee**, a multi-tenant, high-concurrency live-events & ticketing SaaS (design brief; alternative graduation project)
+
 > 📍 See [`SYLLABUS.md`](./SYLLABUS.md) for the **complete 60+ topic roadmap**.
 
 ---

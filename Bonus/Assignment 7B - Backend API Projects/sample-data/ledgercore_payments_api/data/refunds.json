@@ -1,0 +1,10 @@
+[
+  {
+    "id": "rf_01",
+    "charge_id": "ch_02",
+    "amount": 1000,
+    "reason": "partial_return",
+    "status": "succeeded",
+    "created_at": "2026-07-13T10:00:00Z"
+  }
+]

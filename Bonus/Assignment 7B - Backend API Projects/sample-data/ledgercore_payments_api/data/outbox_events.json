@@ -1,0 +1,22 @@
+[
+  {
+    "id": "evt_01",
+    "aggregate_id": "pi_01",
+    "type": "payment.captured",
+    "payload": {
+      "intent": "pi_01",
+      "amount": 4200
+    },
+    "published_at": "2026-07-10T14:00:06Z"
+  },
+  {
+    "id": "evt_02",
+    "aggregate_id": "rf_01",
+    "type": "refund.created",
+    "payload": {
+      "refund": "rf_01",
+      "amount": 1000
+    },
+    "published_at": "2026-07-13T10:00:01Z"
+  }
+]

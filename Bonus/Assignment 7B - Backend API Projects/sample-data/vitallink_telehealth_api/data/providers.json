@@ -1,0 +1,10 @@
+[
+  {
+    "id": "prv_01",
+    "user_id": "usr_03",
+    "full_name": "Dr. Nisha Patel",
+    "specialty": "family_medicine",
+    "license_no": "MD-99123",
+    "verification_status": "verified"
+  }
+]

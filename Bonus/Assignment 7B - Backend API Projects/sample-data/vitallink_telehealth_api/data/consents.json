@@ -1,0 +1,8 @@
+[
+  {
+    "id": "con_01",
+    "patient_id": "pat_01",
+    "type": "telehealth",
+    "granted_at": "2026-02-01T00:05:00Z"
+  }
+]

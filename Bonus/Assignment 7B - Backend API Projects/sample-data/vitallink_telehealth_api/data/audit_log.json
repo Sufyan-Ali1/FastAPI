@@ -1,0 +1,18 @@
+[
+  {
+    "id": "vaud_01",
+    "actor_id": "usr_03",
+    "patient_id": "pat_01",
+    "action": "clinical_note.create",
+    "target": "cln_01",
+    "created_at": "2026-07-21T15:18:00Z"
+  },
+  {
+    "id": "vaud_02",
+    "actor_id": "usr_05",
+    "patient_id": "pat_01",
+    "action": "claim.submit",
+    "target": "clm_01",
+    "created_at": "2026-07-21T16:00:00Z"
+  }
+]

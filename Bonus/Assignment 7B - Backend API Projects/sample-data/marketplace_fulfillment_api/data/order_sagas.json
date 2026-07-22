@@ -1,0 +1,14 @@
+[
+  {
+    "order_id": "ord_01",
+    "step": "completed",
+    "status": "success",
+    "compensation_state": null
+  },
+  {
+    "order_id": "ord_02",
+    "step": "capture_payment",
+    "status": "compensated",
+    "compensation_state": "reservations_released,payment_refunded"
+  }
+]

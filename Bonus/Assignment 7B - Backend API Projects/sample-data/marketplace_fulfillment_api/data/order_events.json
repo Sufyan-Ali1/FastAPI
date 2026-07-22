@@ -1,0 +1,21 @@
+[
+  {
+    "id": "oev_01",
+    "order_id": "ord_01",
+    "type": "order.confirmed",
+    "payload": {
+      "order": "ord_01"
+    },
+    "published_at": "2026-07-14T10:00:30Z"
+  },
+  {
+    "id": "oev_02",
+    "order_id": "ord_02",
+    "type": "order.failed",
+    "payload": {
+      "order": "ord_02",
+      "reason": "payment_declined"
+    },
+    "published_at": "2026-07-15T12:00:20Z"
+  }
+]

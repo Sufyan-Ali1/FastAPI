@@ -1,0 +1,16 @@
+[
+  {
+    "id": "cus_01",
+    "email": "amir@example.com",
+    "hashed_password": "$2b$12$lhiqqoLzt2kMnPlVkSC.eOI.QIuc3s8I7Mls4P.M/H74UVEbhlbRu",
+    "full_name": "Amir Khan",
+    "created_at": "2026-03-01T00:00:00Z"
+  },
+  {
+    "id": "cus_02",
+    "email": "lena@example.com",
+    "hashed_password": "$2b$12$lhiqqoLzt2kMnPlVkSC.eOI.QIuc3s8I7Mls4P.M/H74UVEbhlbRu",
+    "full_name": "Lena Ortiz",
+    "created_at": "2026-03-05T00:00:00Z"
+  }
+]

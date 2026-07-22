@@ -1,0 +1,30 @@
+// Lesson 58 - the gRPC contract (Protocol Buffers).
+// Compile with:
+//   python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. user.proto
+// -> generates user_pb2.py (messages) and user_pb2_grpc.py (service stubs).
+
+syntax = "proto3";
+
+package user;
+
+// ---- Messages: the request/response data shapes (like Pydantic models) ----
+message GetUserRequest {
+  int32 user_id = 1;          // the "= 1" is the field's wire number, not a default
+}
+
+message ListUsersRequest {}
+
+message UserReply {
+  int32 id = 1;
+  string name = 2;
+  string email = 3;
+}
+
+// ---- Service: the callable RPC methods ------------------------------------
+service UserService {
+  // Unary: one request -> one response.
+  rpc GetUser (GetUserRequest) returns (UserReply);
+
+  // Server streaming: one request -> a STREAM of responses.
+  rpc ListUsers (ListUsersRequest) returns (stream UserReply);
+}

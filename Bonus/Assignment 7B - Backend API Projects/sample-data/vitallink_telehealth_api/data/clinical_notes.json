@@ -1,0 +1,12 @@
+[
+  {
+    "id": "cln_01",
+    "visit_id": "vis_01",
+    "subjective": "5-day cough, low-grade fever",
+    "objective": "Chest clear",
+    "assessment": "Acute bronchitis",
+    "plan": "Rest, fluids, antibiotics",
+    "ai_summary": "Bronchitis; prescribed amoxicillin.",
+    "author_id": "usr_03"
+  }
+]

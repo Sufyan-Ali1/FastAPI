@@ -1,0 +1,37 @@
+[
+  {
+    "id": "usr_01",
+    "email": "patient.sara@example.com",
+    "hashed_password": "$2b$12$lhiqqoLzt2kMnPlVkSC.eOI.QIuc3s8I7Mls4P.M/H74UVEbhlbRu",
+    "role": "patient",
+    "created_at": "2026-02-01T00:00:00Z"
+  },
+  {
+    "id": "usr_02",
+    "email": "patient.omar@example.com",
+    "hashed_password": "$2b$12$lhiqqoLzt2kMnPlVkSC.eOI.QIuc3s8I7Mls4P.M/H74UVEbhlbRu",
+    "role": "patient",
+    "created_at": "2026-02-03T00:00:00Z"
+  },
+  {
+    "id": "usr_03",
+    "email": "dr.patel@example.com",
+    "hashed_password": "$2b$12$lhiqqoLzt2kMnPlVkSC.eOI.QIuc3s8I7Mls4P.M/H74UVEbhlbRu",
+    "role": "provider",
+    "created_at": "2026-01-20T00:00:00Z"
+  },
+  {
+    "id": "usr_04",
+    "email": "nurse.kim@example.com",
+    "hashed_password": "$2b$12$lhiqqoLzt2kMnPlVkSC.eOI.QIuc3s8I7Mls4P.M/H74UVEbhlbRu",
+    "role": "nurse",
+    "created_at": "2026-01-22T00:00:00Z"
+  },
+  {
+    "id": "usr_05",
+    "email": "billing@vitallink.example.com",
+    "hashed_password": "$2b$12$lhiqqoLzt2kMnPlVkSC.eOI.QIuc3s8I7Mls4P.M/H74UVEbhlbRu",
+    "role": "billing",
+    "created_at": "2026-01-05T00:00:00Z"
+  }
+]

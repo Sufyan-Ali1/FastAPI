@@ -1,0 +1,11 @@
+[
+  {
+    "id": "rx_01",
+    "patient_id": "pat_01",
+    "provider_id": "prv_01",
+    "medication_id": "med_01",
+    "dosage": "500mg TID",
+    "duration": "7 days",
+    "issued_at": "2026-07-21T15:18:30Z"
+  }
+]

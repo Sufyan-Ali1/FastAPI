@@ -1,0 +1,23 @@
+[
+  {
+    "id": "prd_01",
+    "vendor_id": "ven_01",
+    "name": "TrailLite 2P Tent",
+    "category_id": "cat_01",
+    "status": "active"
+  },
+  {
+    "id": "prd_02",
+    "vendor_id": "ven_01",
+    "name": "Down Sleeping Bag",
+    "category_id": "cat_01",
+    "status": "active"
+  },
+  {
+    "id": "prd_03",
+    "vendor_id": "ven_02",
+    "name": "Cast Iron Skillet 12in",
+    "category_id": "cat_02",
+    "status": "active"
+  }
+]

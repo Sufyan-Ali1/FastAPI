@@ -239,16 +239,17 @@
 
 ## 🎯 BONUS / EXPERT TOPICS
 
-- [ ] **56. Microservices Architecture with FastAPI**
-- [ ] **57. Event-Driven Systems**
+- [x] **56. Microservices Architecture with FastAPI**
+- [x] **57. Event-Driven Systems**
   - RabbitMQ / Kafka integration
-- [ ] **58. gRPC alongside FastAPI**
-- [ ] **59. LLM/AI API Patterns**
+- [x] **58. gRPC alongside FastAPI**
+- [x] **59. LLM/AI API Patterns**
   - Streaming responses
   - Token-by-token output
   - Rate limiting per user/token
-- [ ] **60. Final Capstone Project**
+- [x] **60. Final Capstone Project**
   - Full production-grade API combining everything
+  - Orbit — a multi-tenant, real-time, AI-assisted work-management SaaS backend
 
 ---
 

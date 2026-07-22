@@ -1,0 +1,12 @@
+[
+  {
+    "id": "img_01",
+    "product_id": "prd_01",
+    "storage_key": "products/prd_01/main.jpg"
+  },
+  {
+    "id": "img_02",
+    "product_id": "prd_03",
+    "storage_key": "products/prd_03/main.jpg"
+  }
+]

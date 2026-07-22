@@ -1,0 +1,20 @@
+[
+  {
+    "id": "tmsg_01",
+    "session_id": "trg_01",
+    "role": "user",
+    "content": "I have had a cough for 5 days.",
+    "input_tokens": 12,
+    "output_tokens": 0,
+    "seq": 1
+  },
+  {
+    "id": "tmsg_02",
+    "session_id": "trg_01",
+    "role": "assistant",
+    "content": "How high is your fever, if any?",
+    "input_tokens": 0,
+    "output_tokens": 9,
+    "seq": 2
+  }
+]

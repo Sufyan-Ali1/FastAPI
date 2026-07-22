@@ -1,0 +1,10 @@
+[
+  {
+    "id": "aud_01",
+    "merchant_id": "mer_01",
+    "actor": "key_01",
+    "action": "payout.created",
+    "target": "po_01",
+    "created_at": "2026-07-17T00:00:00Z"
+  }
+]

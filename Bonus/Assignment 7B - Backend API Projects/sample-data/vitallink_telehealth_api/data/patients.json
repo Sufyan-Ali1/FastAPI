@@ -1,0 +1,14 @@
+[
+  {
+    "id": "pat_01",
+    "user_id": "usr_01",
+    "dob": "1990-05-14",
+    "full_name": "Sara Ahmed"
+  },
+  {
+    "id": "pat_02",
+    "user_id": "usr_02",
+    "dob": "1985-11-02",
+    "full_name": "Omar Farid"
+  }
+]

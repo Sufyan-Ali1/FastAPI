@@ -1,0 +1,13 @@
+[
+  {
+    "id": "we_01",
+    "merchant_id": "mer_01",
+    "url": "https://northwind.example.com/webhooks",
+    "secret": "whsec_demo1",
+    "enabled_events": [
+      "payment.captured",
+      "refund.created"
+    ],
+    "is_active": true
+  }
+]

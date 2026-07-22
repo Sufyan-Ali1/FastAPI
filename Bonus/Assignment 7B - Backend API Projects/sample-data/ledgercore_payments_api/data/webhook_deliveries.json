@@ -1,0 +1,18 @@
+[
+  {
+    "id": "wd_01",
+    "endpoint_id": "we_01",
+    "event_id": "evt_01",
+    "status": "delivered",
+    "attempts": 1,
+    "next_retry_at": null
+  },
+  {
+    "id": "wd_02",
+    "endpoint_id": "we_01",
+    "event_id": "evt_02",
+    "status": "failed",
+    "attempts": 4,
+    "next_retry_at": "2026-07-19T13:00:00Z"
+  }
+]

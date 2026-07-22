@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ltx_01",
+    "external_ref": "ch_01",
+    "description": "Capture pi_01 (fee 2.9%+30c=152)",
+    "created_at": "2026-07-10T14:00:05Z"
+  },
+  {
+    "id": "ltx_02",
+    "external_ref": "ch_02",
+    "description": "Capture pi_02 (fee 288)",
+    "created_at": "2026-07-12T16:25:00Z"
+  },
+  {
+    "id": "ltx_03",
+    "external_ref": "rf_01",
+    "description": "Refund rf_01 (1000)",
+    "created_at": "2026-07-13T10:00:00Z"
+  }
+]

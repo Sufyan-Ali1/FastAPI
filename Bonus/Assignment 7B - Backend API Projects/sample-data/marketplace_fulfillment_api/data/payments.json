@@ -1,0 +1,14 @@
+[
+  {
+    "id": "pay_01",
+    "order_id": "ord_01",
+    "amount": 23400,
+    "status": "captured"
+  },
+  {
+    "id": "pay_02",
+    "order_id": "ord_02",
+    "amount": 12900,
+    "status": "refunded"
+  }
+]

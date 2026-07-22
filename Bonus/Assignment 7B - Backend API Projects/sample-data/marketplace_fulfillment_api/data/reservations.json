@@ -1,0 +1,23 @@
+[
+  {
+    "id": "res_01",
+    "order_id": "ord_01",
+    "variant_id": "var_01",
+    "quantity": 1,
+    "status": "committed"
+  },
+  {
+    "id": "res_02",
+    "order_id": "ord_01",
+    "variant_id": "var_03",
+    "quantity": 1,
+    "status": "committed"
+  },
+  {
+    "id": "res_03",
+    "order_id": "ord_02",
+    "variant_id": "var_02",
+    "quantity": 1,
+    "status": "released"
+  }
+]

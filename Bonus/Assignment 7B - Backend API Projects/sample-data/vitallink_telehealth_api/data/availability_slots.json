@@ -1,0 +1,23 @@
+[
+  {
+    "id": "slot_01",
+    "provider_id": "prv_01",
+    "starts_at": "2026-07-21T15:00:00Z",
+    "ends_at": "2026-07-21T15:20:00Z",
+    "status": "booked"
+  },
+  {
+    "id": "slot_02",
+    "provider_id": "prv_01",
+    "starts_at": "2026-07-21T15:20:00Z",
+    "ends_at": "2026-07-21T15:40:00Z",
+    "status": "open"
+  },
+  {
+    "id": "slot_03",
+    "provider_id": "prv_01",
+    "starts_at": "2026-07-22T09:00:00Z",
+    "ends_at": "2026-07-22T09:20:00Z",
+    "status": "booked"
+  }
+]

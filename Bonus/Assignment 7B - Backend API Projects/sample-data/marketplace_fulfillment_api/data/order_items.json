@@ -1,0 +1,26 @@
+[
+  {
+    "id": "oi_01",
+    "order_id": "ord_01",
+    "vendor_id": "ven_01",
+    "variant_id": "var_01",
+    "quantity": 1,
+    "unit_price": 18900
+  },
+  {
+    "id": "oi_02",
+    "order_id": "ord_01",
+    "vendor_id": "ven_02",
+    "variant_id": "var_03",
+    "quantity": 1,
+    "unit_price": 4500
+  },
+  {
+    "id": "oi_03",
+    "order_id": "ord_02",
+    "vendor_id": "ven_01",
+    "variant_id": "var_02",
+    "quantity": 1,
+    "unit_price": 12900
+  }
+]

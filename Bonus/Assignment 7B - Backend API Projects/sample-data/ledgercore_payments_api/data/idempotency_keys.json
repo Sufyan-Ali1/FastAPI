@@ -1,0 +1,12 @@
+[
+  {
+    "key": "idem-a1001",
+    "merchant_id": "mer_01",
+    "request_fingerprint": "hash_a1001",
+    "response_snapshot": {
+      "id": "pi_01",
+      "status": "captured"
+    },
+    "created_at": "2026-07-10T14:00:00Z"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "var_01",
+    "product_id": "prd_01",
+    "sku": "PG-TENT-2P",
+    "price": 18900,
+    "attributes": {
+      "color": "green"
+    }
+  },
+  {
+    "id": "var_02",
+    "product_id": "prd_02",
+    "sku": "PG-BAG-0C",
+    "price": 12900,
+    "attributes": {
+      "temp": "0C"
+    }
+  },
+  {
+    "id": "var_03",
+    "product_id": "prd_03",
+    "sku": "BH-SKILLET-12",
+    "price": 4500,
+    "attributes": {
+      "size": "12in"
+    }
+  }
+]
