@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "fa3ff6c0-b886-4c10-9163-01347d04ff9c",
     "name": "Mechanical Keyboard",
     "sku": "KB-1001",
     "category": "peripherals",
@@ -10,7 +10,7 @@
     "active": true
   },
   {
-    "id": 2,
+    "id": "c46c3daa-770d-4da1-b006-0522a5e44022",
     "name": "Wireless Mouse",
     "sku": "MS-1002",
     "category": "peripherals",
@@ -20,7 +20,7 @@
     "active": true
   },
   {
-    "id": 3,
+    "id": "53b99e6f-2907-4419-ab71-984bfb202811",
     "name": "27 Inch Monitor",
     "sku": "MN-1003",
     "category": "displays",
@@ -30,7 +30,7 @@
     "active": true
   },
   {
-    "id": 4,
+    "id": "6cfe4f9a-cbaf-47cd-aeaa-22004adbdfb0",
     "name": "USB-C Dock",
     "sku": "DK-1004",
     "category": "accessories",
@@ -40,7 +40,7 @@
     "active": true
   },
   {
-    "id": 5,
+    "id": "dae2c1d6-66e0-45cc-9725-2eb83ad7a13d",
     "name": "Laptop Stand",
     "sku": "LS-1005",
     "category": "accessories",
@@ -50,7 +50,7 @@
     "active": true
   },
   {
-    "id": 6,
+    "id": "5fded281-f925-4eb2-aba7-b810823f56b6",
     "name": "Ethernet Adapter",
     "sku": "EA-1006",
     "category": "networking",

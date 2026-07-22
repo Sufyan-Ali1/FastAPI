@@ -1,44 +1,44 @@
 [
-  {
-    "id": 1,
-    "supplier_id": 1,
-    "status": "draft",
-    "notes": "Restock key accessories before weekend demand.",
-    "items": [
-      {
-        "product_id": 4,
-        "quantity": 5,
-        "unit_price": 18500.0,
-        "line_total": 92500.0
-      },
-      {
-        "product_id": 5,
-        "quantity": 10,
-        "unit_price": 6500.0,
-        "line_total": 65000.0
-      }
-    ],
-    "total_amount": 157500.0
-  },
-  {
-    "id": 2,
-    "supplier_id": 2,
-    "status": "received",
-    "notes": "Monitor and mouse refill order already delivered.",
-    "items": [
-      {
-        "product_id": 2,
-        "quantity": 15,
-        "unit_price": 4800.0,
-        "line_total": 72000.0
-      },
-      {
-        "product_id": 3,
-        "quantity": 3,
-        "unit_price": 52000.0,
-        "line_total": 156000.0
-      }
-    ],
-    "total_amount": 228000.0
-  }
+    {
+        "id": "fb5831d1-8efd-4d53-94f5-606b0343271b",
+        "supplier_id": "9302537a-b984-4ee1-85ac-3b7906b509df",
+        "status": "draft",
+        "notes": "Restock key accessories before weekend demand.",
+        "items": [
+            {
+                "product_id": "6cfe4f9a-cbaf-47cd-aeaa-22004adbdfb0",
+                "quantity": 5,
+                "unit_price": 18500.0,
+                "line_total": 92500.0
+            },
+            {
+                "product_id": "dae2c1d6-66e0-45cc-9725-2eb83ad7a13d",
+                "quantity": 10,
+                "unit_price": 6500.0,
+                "line_total": 65000.0
+            }
+        ],
+        "total_amount": 157500.0
+    },
+    {
+        "id": "82f26009-dc40-46cd-bc4d-1566eed5e4a6",
+        "supplier_id": "9e83e4de-fc0b-46f5-852c-ad757297b3fd",
+        "status": "received",
+        "notes": "Monitor and mouse refill order already delivered.",
+        "items": [
+            {
+                "product_id": "c46c3daa-770d-4da1-b006-0522a5e44022",
+                "quantity": 15,
+                "unit_price": 4800.0,
+                "line_total": 72000.0
+            },
+            {
+                "product_id": "53b99e6f-2907-4419-ab71-984bfb202811",
+                "quantity": 3,
+                "unit_price": 52000.0,
+                "line_total": 156000.0
+            }
+        ],
+        "total_amount": 228000.0
+    }
 ]
